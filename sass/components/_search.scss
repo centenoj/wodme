@@ -1,0 +1,43 @@
+.search {
+    position: relative;
+
+    &__icon.fa {
+        font-size: 1.5rem;
+    }
+
+    &__input {
+        width: 40rem;
+        height: 4.5rem;
+        //padding: 1rem;
+        font-family: "Lato Regular";
+        font-size: 1.8rem;
+        padding-left: 1rem;
+        padding-right: 6rem;
+        margin-left: 1rem;
+        outline: none;
+        border-radius: 3px;
+        background-color: $color-white;
+        border: none;
+        //box-shadow: 0 1rem 2rem rgba($color-black,.2);
+    }
+
+    &__button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 4.5rem;
+        background: $color-grey-light-3 url(../images/search.png);
+        background-position: center;
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        width: 5rem;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        border-top-right-radius: 3px;
+        
+        &:hover {
+            background-color: $color-grey-light-4;
+        }
+    }
+}
