@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+@font-face {
+	font-family: Lato Regular;
+	src: url(../fonts/Lato-Regular.ttf);
+}
+
+html {
+    // This defines what 1rem is
+    font-size: 62.5%; //1rem = 10px
+}
+
+body {
+    box-sizing: border-box;
+    padding: 4rem;
+    background-color: $color-white;
+}

@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+@font-face {
+  font-family: Lato Regular;
+  src: url(../fonts/Lato-Regular.ttf); }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  padding: 4rem;
+  background-color: #fff; }
+
+body {
+  font-family: "Lato Regular";
+  line-height: 1.7;
+  color: #f7f7f7; }
