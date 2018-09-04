@@ -1,0 +1,29 @@
+.navigation {
+    
+    padding-top: 3rem;
+    width: 45rem;
+    // padding-left: 50rem;
+    // padding-right: 50rem;
+
+    &__menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        font-size: 1.4rem;
+        font-family: 'Lato Bold';
+        color: $color-grey-light-1;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        display: inline-block;
+        padding-bottom: 0.8rem;
+        border-bottom: 2px solid transparent;
+        cursor: pointer;
+
+        &:hover {
+            border-bottom: 2px solid $color-primary;
+        }
+    }
+}

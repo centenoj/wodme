@@ -1,28 +1,29 @@
 .header {
     height: 95vh;
-    background-color: red;
-    background-image: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-dark, 0.8)), url(../images/kettlebell-1045067_1920.jpg);
+    background-image: linear-gradient(to right bottom, rgba($color-black, 0.6), rgba($color-primary, 0.9)), url(../images/kettlebell-1045067_1920.jpg);
+    //background-image: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-dark, 0.8)), url(../images/kettlebell-1045067_1920.jpg);
     background-position: center;
     background-size: cover;
-    //background-attachment: fixed;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);    
-}
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
-.header-top {
     display: flex;
-    //padding: 3rem 3rem 3rem 3rem;
-    padding: 3rem;
-    //background-color: red;
-    align-items: center;
-    // height: 15rem;
-    // padding-left: 3rem;
-    // padding-right: 3rem;
+    justify-content: center;
+
+    &__logo-box {
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+    }
 
     &__logo {
         height: 10rem;
     }
 
-    &__search {
-        margin-left: auto;
+    &__text-box {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        text-align: center;
     }
 }

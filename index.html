@@ -7,28 +7,44 @@
 
     <title>WODme | Manage your workouts</title>
 
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="assets/images/logo_white.png">
     <link rel="stylesheet" href="./assets/css/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>    
+<body>
+
     <header class="header">
-        <div class="header-top">
-            <img src="assets/images/logo_color.png" alt="logo" class="header-top__logo">
-            <form action="" class="search header-top__search">
-                <!-- <i class="fa fa-search search__icon"></i> -->
-                <input type="text" class="search__input" placeholder="Search workouts...">
-                <input type="submit" class="search__button" value="">
-            </form>
+        <div class="header__logo-box">
+            <img src="assets/images/logo_white.png" alt="logo" class="header__logo">
         </div>
-        <!-- <div class="header__logo-box">
-            <img src="assets/images/logo_color.png" alt="logo" class="header__logo">
-        </div> -->
-    </header>
+
+        <!-- <nav class="navigation">
+            <ul class="navigation__menu">
+                <li class="navigation__item">My workouts</li>
+                <li class="navigation__item">Add workout</li>
+                <li class="navigation__item">Randomize</li>
+            </ul>
+        </nav> -->
+
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Workout of the day</span>
+                <span class="heading-primary--sub">There’s always a new challenge to keep you motivated</span>
+            </h1>
+
+            <a href="#" class="btn btn--white">I’m accepting the challenge</a>
+        </div>
+    </header>   
 
     <main>
-
+        <section id="workouts" class="section-workouts">
+            <div class="u-center-text u-margin-bottom-big">
+                <h2 class="heading-secondary">
+                    Workouts
+                </h2>
+            </div>
+        </section>
     </main>
 
     <script src="./bundle.js"></script>
