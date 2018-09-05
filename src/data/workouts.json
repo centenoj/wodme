@@ -1,0 +1,42 @@
+{
+    "dummy": {
+        "target": "Full Body",
+        "difficulty": "medium",
+        "duration": "30 minutes",
+        "rounds": {
+            "1": [{
+                    "exercise": "push up",
+                    "reps": "6",
+                    "equipment": "none"
+                },
+                {
+                    "exercise": "power lunge",
+                    "reps": "7",
+                    "equipment": "none"
+                },
+                {
+                    "exercise": "burpee",
+                    "reps": "4",
+                    "equipment": "none"
+                }
+            ],
+            "2": [{
+                    "exercise": "pull up",
+                    "reps": "6",
+                    "equipment": "pull up bar"
+                },
+                {
+                    "exercise": "squat",
+                    "reps": "7",
+                    "equipment": "none"
+                },
+                {
+                    "exercise": "box jump",
+                    "reps": "5",
+                    "equipment": "box"
+                }
+            ],
+            "notes": ""
+        }
+    }
+}
