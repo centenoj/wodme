@@ -1,42 +1,990 @@
 {
-    "dummy": {
-        "target": "Full Body",
-        "difficulty": "medium",
-        "duration": "30 minutes",
-        "rounds": {
-            "1": [{
-                    "exercise": "push up",
-                    "reps": "6",
-                    "equipment": "none"
+    "types": ["As many rounds", "Time to beat", "Rep decrease", "1 minute rounds"],
+    "difficulty:": ["Easy", "Medium", "Hard"],
+    "categories": ["Cardio", "Strength", "..."],
+    "equipments": ["None", "Pull up bar", "Ball", "Box", "Bar", "Treadmill", "Dumbbell", "Row machine", "Kettlebell", "Cable jungle", "TRX", "Squat rack", "Plate", "Bosu ball"],
+    "workouts": {
+        "Subdivisions": {
+            "type": 0,
+            "duration": 30,
+            "difficulty": 1,
+            "category": 0,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Pull ups",
+                        "target": "5 reps",
+                        "equipment": 1
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "10 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "15 reps",
+                        "equipment": 2
+                    },
+                    {
+                        "exercise": "Burpee with box jump",
+                        "target": "10 reps",
+                        "equipment": 3
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Between the Wheels": {
+            "type": 1,
+            "difficulty": 1,
+            "category": 0,
+            "workout": [{
+                "reps": 1,
+                "rounds": [{
+                        "exercise": "Squats",
+                        "target": "100 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "75 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Thrusters",
+                        "target": "50 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Wall ball",
+                        "target": "25 reps",
+                        "equipment": 2
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "100 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Thrusters",
+                        "target": "75 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Wall ball",
+                        "target": "50 reps",
+                        "equipment": 2
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "25 reps",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Marathon": {
+            "type": 0,
+            "duration": 30,
+            "difficulty": 2,
+            "category": 0,
+            "workout": [{
+                "duration": 30,
+                "rounds": [{
+                        "exercise": "Pull ups",
+                        "target": "5 reps",
+                        "equipment": 1
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "10 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "15 reps",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Grand Designs": {
+            "type": 1,
+            "difficulty": 1,
+            "category": 0,
+            "workout": [{
+                "reps": 5,
+                "rounds": [{
+                        "exercise": "Pull ups",
+                        "target": "5 reps",
+                        "equipment": 1
+                    },
+                    {
+                        "exercise": "Burpee with box jump",
+                        "target": "10 reps",
+                        "equipment": 3
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "15 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Clean",
+                        "target": "20 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Run",
+                        "target": "250 meters",
+                        "equipment": 5
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Limelight": {
+            "type": 1,
+            "difficulty": 0,
+            "category": 0,
+            "workout": [{
+                "reps": 10,
+                "rounds": [{
+                        "exercise": "Squats",
+                        "target": "10 reps",
+                        "equipment": 2
+                    },
+                    {
+                        "exercise": "Snatch",
+                        "target": "10 reps",
+                        "equipment": 6
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "10 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Sit ups",
+                        "target": "10 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "10 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Run",
+                        "target": "100 meters",
+                        "equipment": 5
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": [{
+                "date": "06/09/2018",
+                "time": "34:36",
+                "notes": "Squats with 12kg, Snatch with 10kg, Run at 16km/h"
+            }]
+        },
+        "Superconductor": {
+            "type": 1,
+            "difficulty": 1,
+            "category": 0,
+            "workout": [{
+                "reps": 8,
+                "rounds": [{
+                        "exercise": "Squats",
+                        "target": "15 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Deadlifts",
+                        "target": "15 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "15 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Snatch",
+                        "target": "16 reps",
+                        "equipment": 6
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Bravado": {
+            "type": 1,
+            "difficulty": 1,
+            "category": 0,
+            "workout": [{
+                "reps": 5,
+                "rounds": [{
+                        "exercise": "Row",
+                        "target": "500 meters",
+                        "equipment": 7
+                    },
+                    {
+                        "exercise": "Hip thruster",
+                        "target": "10 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "10 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Pull ups",
+                        "target": "10 reps",
+                        "equipment": 1
+                    },
+                    {
+                        "exercise": "Abs Plank",
+                        "target": "1 minute",
+                        "equipment": 6
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Dreamline": {
+            "type": 1,
+            "difficulty": 1,
+            "category": 0,
+            "workout": [{
+                    "reps": 5,
+                    "rounds": [{
+                            "exercise": "Push ups",
+                            "target": "10 reps",
+                            "equipment": 0
+                        },
+                        {
+                            "exercise": "Pull ups",
+                            "target": "10 reps",
+                            "equipment": 1
+                        }
+                    ]
                 },
                 {
-                    "exercise": "power lunge",
-                    "reps": "7",
-                    "equipment": "none"
+                    "reps": 5,
+                    "rounds": [{
+                            "exercise": "Cable jungle lunge",
+                            "target": "20 reps",
+                            "equipment": 8
+                        },
+                        {
+                            "exercise": "Hamstring curl",
+                            "target": "10 reps",
+                            "equipment": 4
+                        }
+                    ]
                 },
                 {
-                    "exercise": "burpee",
-                    "reps": "4",
-                    "equipment": "none"
+                    "reps": 5,
+                    "rounds": [{
+                            "exercise": "Superman",
+                            "target": "10 reps",
+                            "equipment": 6
+                        },
+                        {
+                            "exercise": "Cable core press",
+                            "target": "20 reps",
+                            "equipment": 9
+                        }
+                    ]
                 }
             ],
-            "2": [{
-                    "exercise": "pull up",
-                    "reps": "6",
-                    "equipment": "pull up bar"
+            "notes": "",
+            "results": []
+        },
+        "Animate": {
+            "type": 1,
+            "difficulty": 1,
+            "category": 0,
+            "workout": [{
+                "reps": 1,
+                "rounds": [{
+                        "exercise": "Pull ups",
+                        "target": "100 reps",
+                        "equipment": 1
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "100 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Sit ups",
+                        "target": "100 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "100 reps",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Alien Shore": {
+            "type": 1,
+            "difficulty": 1,
+            "category": 0,
+            "workout": [{
+                "reps": 10,
+                "rounds": [{
+                        "exercise": "Low row",
+                        "target": "21 reps",
+                        "equipment": 10
+                    },
+                    {
+                        "exercise": "Thrusters",
+                        "target": "15 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Burpee with box jump",
+                        "target": "9 reps",
+                        "equipment": 3
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Totem": {
+            "type": 0,
+            "duration": 30,
+            "difficulty": 0,
+            "category": 0,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Squats",
+                        "target": "7 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Pull ups",
+                        "target": "7 reps",
+                        "equipment": 1
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "7 reps",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Resist": {
+            "type": 1,
+            "difficulty": 1,
+            "category": 0,
+            "workout": [{
+                "reps": 5,
+                "rounds": [{
+                        "exercise": "Walk lunges",
+                        "target": "20 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpee with lateral bar raise",
+                        "target": "20 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Sit ups",
+                        "target": "20 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Thrusters",
+                        "target": "20 reps",
+                        "equipment": 4
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Anthem": {
+            "type": 1,
+            "difficulty": 1,
+            "category": 0,
+            "workout": [{
+                "reps": 5,
+                "rounds": [{
+                        "exercise": "Walk out pushup",
+                        "target": "20 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Wall ball",
+                        "target": "20 reps",
+                        "equipment": 2
+                    },
+                    {
+                        "exercise": "Box jump",
+                        "target": "20 reps",
+                        "equipment": 3
+                    },
+                    {
+                        "exercise": "Hanging knee raise",
+                        "target": "10 reps",
+                        "equipment": 1
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Rivendell": {
+            "type": 1,
+            "difficulty": 1,
+            "category": 0,
+            "workout": [{
+                "reps": 6,
+                "rounds": [{
+                        "exercise": "Squats",
+                        "target": "12 reps",
+                        "equipment": 11
+                    },
+                    {
+                        "exercise": "Low row",
+                        "target": "12 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Tricep push ups",
+                        "target": "12 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Plank",
+                        "target": "1 minute",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Necromancer": {
+            "type": 0,
+            "difficulty": "easy",
+            "duration": 30,
+            "category": 0,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Pull ups",
+                        "target": "5 reps",
+                        "equipment": 1
+                    },
+                    {
+                        "exercise": "Burpee with box jump",
+                        "target": "5 reps",
+                        "equipment": 3
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "5 reps",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Xanadu": {
+            "type": 1,
+            "difficulty": 1,
+            "category": 0,
+            "workout": [{
+                    "reps": 1,
+                    "rounds": [{
+                        "exercise": "Squats",
+                        "target": "1 minute",
+                        "equipment": 11
+                    }]
                 },
                 {
-                    "exercise": "squat",
-                    "reps": "7",
-                    "equipment": "none"
+                    "reps": 1,
+                    "rounds": [{
+                            "exercise": "Squats",
+                            "target": "1 minute",
+                            "equipment": 11
+                        },
+                        {
+                            "exercise": "Push ups",
+                            "target": "1 minute",
+                            "equipment": 0
+                        }
+                    ]
                 },
                 {
-                    "exercise": "box jump",
-                    "reps": "5",
-                    "equipment": "box"
+                    "reps": 1,
+                    "rounds": [{
+                            "exercise": "Squats",
+                            "target": "1 minute",
+                            "equipment": 11
+                        },
+                        {
+                            "exercise": "Push ups",
+                            "target": "1 minute",
+                            "equipment": 0
+                        },
+                        {
+                            "exercise": "Upper back row",
+                            "target": "1 minute",
+                            "equipment": 10
+                        }
+                    ]
+                },
+                {
+                    "reps": 1,
+                    "rounds": [{
+                            "exercise": "Squats",
+                            "target": "1 minute",
+                            "equipment": 11
+                        },
+                        {
+                            "exercise": "Push ups",
+                            "target": "1 minute",
+                            "equipment": 0
+                        },
+                        {
+                            "exercise": "Upper back row",
+                            "target": "1 minute",
+                            "equipment": 10
+                        },
+                        {
+                            "exercise": "Tricep dips",
+                            "target": "1 minute",
+                            "equipment": 3
+                        }
+                    ]
+                },
+                {
+                    "reps": 1,
+                    "rounds": [{
+                            "exercise": "Squats",
+                            "target": "1 minute",
+                            "equipment": 11
+                        },
+                        {
+                            "exercise": "Push ups",
+                            "target": "1 minute",
+                            "equipment": 0
+                        },
+                        {
+                            "exercise": "Upper back row",
+                            "target": "1 minute",
+                            "equipment": 10
+                        },
+                        {
+                            "exercise": "Tricep dips",
+                            "target": "1 minute",
+                            "equipment": 3
+                        },
+                        {
+                            "exercise": "Wall ball",
+                            "target": "1 minute",
+                            "equipment": 2
+                        }
+                    ]
+                },
+                {
+                    "reps": 1,
+                    "rounds": [{
+                            "exercise": "Squats",
+                            "target": "1 minute",
+                            "equipment": 11
+                        },
+                        {
+                            "exercise": "Push ups",
+                            "target": "1 minute",
+                            "equipment": 0
+                        },
+                        {
+                            "exercise": "Upper back row",
+                            "target": "1 minute",
+                            "equipment": 10
+                        },
+                        {
+                            "exercise": "Tricep dips",
+                            "target": "1 minute",
+                            "equipment": 3
+                        },
+                        {
+                            "exercise": "Wall ball",
+                            "target": "1 minute",
+                            "equipment": 2
+                        },
+                        {
+                            "exercise": "Burpees",
+                            "target": "1 minute",
+                            "equipment": 0
+                        }
+                    ]
                 }
             ],
-            "notes": ""
+            "notes": "",
+            "results": []
+        },
+        "Cygnus": {
+            "type": 0,
+            "duration": 30,
+            "difficulty": 0,
+            "category": 0,
+            "workout": [{                
+                "rounds": [{
+                        "exercise": "Squats",
+                        "target": "100 reps",
+                        "equipment": 12
+                    },
+                    {
+                        "exercise": "Thrusters",
+                        "target": "75 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Low row",
+                        "target": "50 reps",
+                        "equipment": 10
+                    },
+                    {
+                        "exercise": "Wall ball",
+                        "target": "25 reps",
+                        "equipment": 2
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Caravan": {
+            "type": 0,
+            "duration": 30,
+            "difficulty": 0,
+            "category": 0,
+            "workout": [{
+                "reps": 5,
+                "rounds": [{
+                        "exercise": "Squats",
+                        "target": "21 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "15 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "9 reps",
+                        "equipment": 0
+                    }
+                ]
+            }, {
+                "reps": 1,
+                "rounds": [{
+                        "exercise": "Run",
+                        "target": "500 meters",
+                        "equipment": 5
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Faithless": {
+            "type": 0,
+            "duration": 30,
+            "difficulty": 0,
+            "category": 0,
+            "workout": [{
+                "reps": 5,
+                "rounds": [{
+                        "exercise": "Squats",
+                        "target": "21 reps",
+                        "equipment": 11
+                    },
+                    {
+                        "exercise": "Pull ups",
+                        "target": "15 reps",
+                        "equipment": 1
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "9 reps",
+                        "equipment": 13
+                    }
+                ]
+            }, {
+                "reps": 1,
+                "rounds": [{
+                        "exercise": "Run",
+                        "target": "500 meters",
+                        "equipment": 5
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Earthshine": {
+            "type": 0,
+            "duration": 30,
+            "difficulty": 0,
+            "category": 0,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Squats",
+                        "target": "50 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Low row",
+                        "target": "40 reps",
+                        "equipment": 10
+                    },
+                    {
+                        "exercise": "Wall ball",
+                        "target": "30 reps",
+                        "equipment": 2
+                    },
+                    {
+                        "exercise": "Sit ups",
+                        "target": "20 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "10 reps",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Ghost Rider": {
+            "type": 0,
+            "duration": 30,
+            "difficulty": 0,
+            "category": 0,
+            "workout": [{
+                "reps": 5,
+                "rounds": [{
+                        "exercise": "Deadlift",
+                        "target": "21 reps",
+                        "equipment": 11
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "15 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "9 reps",
+                        "equipment": 0
+                    }
+                ]
+            }, {
+                "reps": 1,
+                "rounds": [{
+                        "exercise": "Run",
+                        "target": "500 meters",
+                        "equipment": 5
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Clockwork Angels": {
+            "type": 0,
+            "duration": 30,
+            "difficulty": 0,
+            "category": 0,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Cleans",
+                        "target": "21 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Upper back row",
+                        "target": "15 reps",
+                        "equipment": 10
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "9 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Run",
+                        "target": "500 meters",
+                        "equipment": 5
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "Natural Science": {
+            "type": 0,
+            "duration": 30,
+            "difficulty": 0,
+            "category": 0,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Cleans",
+                        "target": "21 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Frontal squats",
+                        "target": "15 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Thrusters",
+                        "target": "9 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Row",
+                        "target": "10 calories",
+                        "equipment": 7
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
+        },
+        "2112": {
+            "type": 2,
+            "difficulty": 0,
+            "category": 0,
+            "workout": [{                
+                "rounds": [{
+                        "exercise": "Jumps",
+                        "target": "21 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "21 reps",
+                        "equipment": 2
+                    },
+                    {
+                        "exercise": "Ball slam",
+                        "target": "21 reps",
+                        "equipment": 2
+                    },
+                    {
+                        "exercise": "Sit ups",
+                        "target": "21 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "21 reps",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "Reduce the number of reps by two each round (19, 17, ...)",
+            "results": []
+        },
+        "Madrigal": {
+            "type": 2,
+            "difficulty": 0,
+            "category": 0,
+            "workout": [{                
+                "rounds": [{
+                        "exercise": "Deadlift",
+                        "target": "21 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Thrusters",
+                        "target": "21 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "21 reps",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "Reduce the number of reps by two each round (19, 17, ...)",
+            "results": []
+        },
+        "Afterimage": {
+            "type": 3,
+            "duration": 30,
+            "difficulty": 0,
+            "category": 0,
+            "workout": [{                
+                "rounds": [{
+                        "exercise": "Push ups",
+                        "target": "6 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Power lunges",
+                        "target": "7 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "5 reps",
+                        "equipment": 0
+                    }
+                ]
+            }, {                
+                "rounds": [{
+                        "exercise": "Pull ups",
+                        "target": "6 reps",
+                        "equipment": 1
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "7 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Box jump",
+                        "target": "5 reps",
+                        "equipment": 3
+                    }
+                ]
+            }],
+            "notes": "",
+            "results": []
         }
     }
 }
