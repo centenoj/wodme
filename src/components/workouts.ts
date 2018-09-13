@@ -30,8 +30,6 @@ export default class Wods {
     }
 
     getByDifficulty(difficulty: number) {
-        if (difficulty >= this.data.types.length) return [];
-
         return this.data.workouts.filter((w) => difficulty === w.difficulty);
     }
 

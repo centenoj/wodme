@@ -1,6 +1,5 @@
 {
     "types": ["As many rounds", "Time to beat", "Rep decrease", "1 minute rounds"],
-    "difficulty": ["Easy", "Medium", "Hard"],
     "categories": ["Cardio", "Strength", "..."],
     "equipments": ["None", "Pull up bar", "Ball", "Box", "Bar", "Treadmill", "Dumbbell", "Row machine", "Kettlebell", "Cable jungle", "TRX", "Squat rack", "Plate", "Bosu ball"],
     "workouts": [{
@@ -87,7 +86,11 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "results": [{
+                "date": "13/09/2018",
+                "time": 1842,
+                "notes": "Squats with 20kg, Thrusters with 10kg"
+            }]
         },
         {
             "id": 3,
@@ -159,7 +162,7 @@
             "id": 5,
             "name": "Limelight",
             "type": 1,
-            "difficulty": 0,
+            "difficulty": 3,
             "category": 0,
             "workout": [{
                 "reps": 10,
@@ -198,7 +201,7 @@
             "notes": "",
             "results": [{
                 "date": "06/09/2018",
-                "time": "34:36",
+                "time": 2076,
                 "notes": "Squats with 12kg, Snatch with 10kg, Run at 16km/h"
             }]
         },
@@ -384,14 +387,18 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "results": [{
+                "date": "11/09/2018",
+                "time": 2071,
+                "notes": "Thrusters with 20kg"
+            }]
         },
         {
             "id": 11,
             "name": "Totem",
             "type": 0,
             "duration": 30,
-            "difficulty": 0,
+            "difficulty": 5,
             "category": 0,
             "workout": [{
                 "rounds": [{
@@ -511,13 +518,17 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "results": [{
+                "date": "12/09/2018",
+                "time": 1701,
+                "notes": "Squats with 70kg, Low row with 50kg"
+            }]
         },
         {
             "id": 15,
             "name": "Necromancer",
             "type": 0,
-            "difficulty": "easy",
+            "difficulty": 1,
             "duration": 30,
             "category": 0,
             "workout": [{
@@ -684,7 +695,7 @@
             "name": "Cygnus",
             "type": 0,
             "duration": 30,
-            "difficulty": 0,
+            "difficulty": 4,
             "category": 0,
             "workout": [{
                 "rounds": [{
@@ -717,7 +728,7 @@
             "name": "Caravan",
             "type": 0,
             "duration": 30,
-            "difficulty": 0,
+            "difficulty": 3,
             "category": 0,
             "workout": [{
                 "reps": 5,
@@ -753,7 +764,7 @@
             "name": "Faithless",
             "type": 0,
             "duration": 30,
-            "difficulty": 0,
+            "difficulty": 4,
             "category": 0,
             "workout": [{
                 "reps": 5,
@@ -789,7 +800,7 @@
             "name": "Earthshine",
             "type": 0,
             "duration": 30,
-            "difficulty": 0,
+            "difficulty": 3,
             "category": 0,
             "workout": [{
                 "rounds": [{
@@ -827,7 +838,7 @@
             "name": "Ghost Rider",
             "type": 0,
             "duration": 30,
-            "difficulty": 0,
+            "difficulty": 3,
             "category": 0,
             "workout": [{
                 "reps": 5,
@@ -863,7 +874,7 @@
             "name": "Clockwork Angels",
             "type": 0,
             "duration": 30,
-            "difficulty": 0,
+            "difficulty": 3,
             "category": 0,
             "workout": [{
                 "rounds": [{
@@ -896,7 +907,7 @@
             "name": "Natural Science",
             "type": 0,
             "duration": 30,
-            "difficulty": 0,
+            "difficulty": 4,
             "category": 0,
             "workout": [{
                 "rounds": [{
@@ -928,7 +939,7 @@
             "id": 24,
             "name": "2112",
             "type": 2,
-            "difficulty": 0,
+            "difficulty": 5,
             "category": 0,
             "workout": [{
                 "rounds": [{
@@ -965,7 +976,7 @@
             "id": 25,
             "name": "Madrigal",
             "type": 2,
-            "difficulty": 0,
+            "difficulty": 2,
             "category": 0,
             "workout": [{
                 "rounds": [{
@@ -993,7 +1004,7 @@
             "name": "Afterimage",
             "type": 3,
             "duration": 30,
-            "difficulty": 0,
+            "difficulty": 1,
             "category": 0,
             "workout": [{
                 "rounds": [{

@@ -8,18 +8,20 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 3rem;
     grid-row-gap: 3rem;
-
+    
     &__box {
         background-color: $color-white;
-        height: 30rem;
+        height: 45rem;
         box-shadow: 0 2rem 5rem rgba($color-black, .1);
-        border: 2px solid transparent;
+        //border: 2px solid transparent;
         cursor: pointer;
         transition: all .3s;
+        position: relative;
+
 
         &:hover {
             transform: translateY(-3px);
-            border: 2px solid $color-primary;
+            //border: 2px solid $color-primary-dark;
         }
 
         &:active,
@@ -30,18 +32,83 @@
         }
     }
 
-    &__overlay {
-        background-image: linear-gradient(to right bottom, rgba($color-white, 0.8), rgba($color-white, 0.9)), url(../images/dumbbell-1966702_1920.jpg);
+    &__image {
+        height: 45%;
+        background-image: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-dark, 0.3)), url(../images/fitness-1882721_1920.jpg);
         background-position: center;
         background-size: cover;
-        height: 40%;
     }
 
     &__title {
-        font-size: 4rem;
-        color: $color-grey-dark-3;
+        font-size: 3rem;
+        color: $color-white;
         text-transform: uppercase;
         text-align: center;
-        transform: translateY(-20px) rotate(-7deg);
+        transform: translateY(30px) rotate(-7deg);
+        padding: 1rem;
+        letter-spacing: 0.5rem;
     }
+
+    &__details-box {
+        background-color: red;
+        height: 55%;
+    }
+
+    // &__type {
+    //     color: $color-grey-dark-3;
+    //     background-color: $color-white;
+    //     font-size: 1.6rem;
+    //     padding: 0.5rem 1rem;
+    //     box-shadow: 0 0.5rem 2rem rgba($color-black,.2);
+    //     border-radius: 2px;
+    //     z-index: 10;
+    //     position: absolute;
+    //     left: 50%;
+    //     transform: translate(-50%, -50%);
+    // }
+
+    // &__overlay {
+    //     background-image: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-dark, 0.3)), url(../images/fitness-1882721_1920.jpg);
+    //     background-position: center;
+    //     background-size: cover;
+    //     height: 60%;
+    // }
+
+    
+
+    // &__details {
+    //     height: 40%;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: space-evenly;
+    //     //padding-left: 1rem;
+    //     //padding-right: 1rem;
+    // }
+
+    // &__details-box {
+    //     position: relative;
+    //     color: $color-grey-dark-3;
+        
+
+    //     &:not(:last-child):after {
+    //         content: "";
+    //         right: -25px;
+    //         top: 0;
+    //         height: 100%;
+    //         position: absolute;
+    //         border-right: 1px solid $color-grey-light-3;
+    //     }
+    // }
+
+    // &__details-title {
+    //     font-family: 'Lato Bold';
+    //     font-size: 1.6rem;
+    //     letter-spacing: 0.1rem;
+    // }
+
+    // &__details-description {
+    //     font-family: 'Lato Regular';
+    //     font-size: 1.4rem;
+    //     letter-spacing: 0.1rem;
+    // }
 }
