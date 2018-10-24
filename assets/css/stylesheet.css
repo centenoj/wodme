@@ -136,9 +136,6 @@ body {
   display: grid;
   grid-template-rows: 18rem 23rem 1fr;
   grid-gap: 2rem; }
-  .card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
   .card:active, .card:focus {
     outline: none;
     transform: translateY(-1px); }
@@ -172,7 +169,25 @@ body {
       fill: #b6b6b6; }
   .card__footer {
     background-color: #333;
-    display: flex; }
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 1rem 0 1rem; }
+  .card__info {
+    display: flex;
+    width: 9rem;
+    align-items: center;
+    justify-content: flex-end; }
+    .card__info:not(:last-child) {
+      margin-right: 1rem; }
+  .card__icon {
+    fill: #f7f7f7;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.9rem;
+    backface-visibility: hidden; }
+  .card__icon-text {
+    font-size: 1.4rem; }
 
 .navigation {
   padding-top: 3rem;
