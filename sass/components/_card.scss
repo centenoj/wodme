@@ -1,0 +1,76 @@
+.card {        
+    background-color: $color-white;
+    height: 50rem;
+    box-shadow: 0 2rem 5rem rgba($color-black, .1);
+    //border: 2px solid transparent;
+    transition: all .3s;
+    position: relative;
+    display: grid;
+    grid-template-rows: 18rem 23rem 1fr;
+    grid-gap: 2rem;
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 .5rem 1rem rgba($color-black,.2);
+        //border: 2px solid $color-primary-dark;
+    }
+
+    &:active,
+    &:focus {
+        outline: none;
+        transform: translateY(-1px);
+        
+    }
+
+    &__header { 
+        display: grid;   
+        grid-template-rows: 17rem 1fr;
+
+        &::after {
+            content: "";
+            height: 1px;
+            margin: .5rem auto 0 auto;
+            width: 90%;
+            background-color: $color-grey-light-3;
+        }
+    }
+
+    &__image {
+        background-image: url(../images/fitness-1882721_1920.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 16rem;
+    }
+
+    &__title-box {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1.5rem;
+    }
+
+    &__title {
+        font-size: 2.4rem;
+        color: $color-primary-dark;
+    }
+
+    &__star {
+        fill: $color-star;
+        width: 1.6rem;
+        height: 1.6rem;
+        backface-visibility: hidden;
+
+        &--empty {
+            fill: $color-grey-light-4;
+        }
+    }
+
+    &__content {
+        //background-color: lightsalmon;
+        
+    }
+
+    &__footer {
+        background-color: $color-grey-dark-3;
+        display: flex;
+    }
+}

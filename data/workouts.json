@@ -4,6 +4,7 @@
     "workouts": [{
             "id": 1,
             "name": "Subdivisions",
+            "image": "",
             "type": 0,
             "duration": 30,
             "difficulty": 5,
@@ -36,6 +37,7 @@
         {
             "id": 2,
             "name": "Between the Wheels",
+            "image": "",
             "type": 1,
             "difficulty": 3,
             "workout": [{
@@ -92,6 +94,7 @@
         {
             "id": 3,
             "name": "Marathon",
+            "image": "",
             "type": 0,
             "duration": 30,
             "difficulty": 3,
@@ -119,6 +122,7 @@
         {
             "id": 4,
             "name": "Grand Designs",
+            "image": "",
             "type": 1,
             "difficulty": 5,
             "workout": [{
@@ -156,6 +160,7 @@
         {
             "id": 5,
             "name": "Limelight",
+            "image": "",
             "type": 1,
             "difficulty": 2,
             "workout": [{
@@ -202,6 +207,7 @@
         {
             "id": 6,
             "name": "Superconductor",
+            "image": "",
             "type": 1,
             "difficulty": 2,
             "workout": [{
@@ -238,6 +244,7 @@
         {
             "id": 7,
             "name": "Bravado",
+            "image": "",
             "type": 1,
             "difficulty": 3,
             "workout": [{
@@ -275,6 +282,7 @@
         {
             "id": 8,
             "name": "Dreamline",
+            "image": "",
             "type": 1,
             "difficulty": 3,
             "workout": [{
@@ -326,6 +334,7 @@
         {
             "id": 9,
             "name": "Animate",
+            "image": "",
             "type": 1,
             "difficulty": 5,
             "workout": [{
@@ -358,6 +367,7 @@
         {
             "id": 10,
             "name": "Alien Shore",
+            "image": "",
             "type": 1,
             "difficulty": 4,
             "workout": [{
@@ -389,6 +399,7 @@
         {
             "id": 11,
             "name": "Totem",
+            "image": "",
             "type": 0,
             "duration": 30,
             "difficulty": 2,
@@ -416,6 +427,7 @@
         {
             "id": 12,
             "name": "Resist",
+            "image": "",
             "type": 1,
             "difficulty": 3,
             "workout": [{
@@ -448,6 +460,7 @@
         {
             "id": 13,
             "name": "Anthem",
+            "image": "",
             "type": 1,
             "difficulty": 3,
             "workout": [{
@@ -480,6 +493,7 @@
         {
             "id": 14,
             "name": "Rivendell",
+            "image": "",
             "type": 1,
             "difficulty": 4,
             "workout": [{
@@ -516,6 +530,7 @@
         {
             "id": 15,
             "name": "Necromancer",
+            "image": "",
             "type": 0,
             "difficulty": 3,
             "duration": 30,
@@ -543,6 +558,7 @@
         {
             "id": 16,
             "name": "Xanadu",
+            "image": "",
             "type": 1,
             "difficulty": 3,
             "workout": [{
@@ -680,6 +696,7 @@
         {
             "id": 17,
             "name": "Cygnus",
+            "image": "",
             "type": 1,
             "difficulty": 4,
             "workout": [{
@@ -712,6 +729,7 @@
         {
             "id": 18,
             "name": "Caravan",
+            "image": "",
             "type": 0,
             "duration": 30,
             "difficulty": 2,
@@ -747,6 +765,7 @@
         {
             "id": 19,
             "name": "Faithless",
+            "image": "",
             "type": 0,
             "duration": 30,
             "difficulty": 3,
@@ -782,6 +801,7 @@
         {
             "id": 20,
             "name": "Earthshine",
+            "image": "",
             "type": 0,
             "duration": 30,
             "difficulty": 2,
@@ -819,6 +839,7 @@
         {
             "id": 21,
             "name": "Ghost Rider",
+            "image": "",
             "type": 0,
             "duration": 30,
             "difficulty": 3,
@@ -854,6 +875,7 @@
         {
             "id": 22,
             "name": "Clockwork Angels",
+            "image": "",
             "type": 0,
             "duration": 30,
             "difficulty": 4,
@@ -886,6 +908,7 @@
         {
             "id": 23,
             "name": "Natural Science",
+            "image": "",
             "type": 0,
             "duration": 30,
             "difficulty": 4,
@@ -918,6 +941,7 @@
         {
             "id": 24,
             "name": "2112",
+            "image": "",
             "type": 2,
             "difficulty": 5,
             "workout": [{
@@ -954,6 +978,7 @@
         {
             "id": 25,
             "name": "Madrigal",
+            "image": "",
             "type": 2,
             "difficulty": 4,
             "workout": [{
@@ -980,6 +1005,7 @@
         {
             "id": 26,
             "name": "Afterimage",
+            "image": "",
             "type": 3,
             "duration": 30,
             "difficulty": 1,
@@ -1024,6 +1050,7 @@
         {
             "id": 27,
             "name": "",
+            "image": "",
             "type": 2,
             "difficulty": 4,
             "workout": [{
@@ -1064,6 +1091,7 @@
         {
             "id": 28,
             "name": "",
+            "image": "",
             "type": 1,
             "difficulty": 4,
             "workout": [{
@@ -1100,6 +1128,7 @@
         {
             "id": 29,
             "name": "",
+            "image": "",
             "type": 4,
             "difficulty": 4,
             "workout": [{
@@ -1140,6 +1169,7 @@
         {
             "id": 30,
             "name": "",
+            "image": "",
             "type": 4,
             "difficulty": 3,
             "workout": [{
@@ -1180,6 +1210,7 @@
         {
             "id": 31,
             "name": "",
+            "image": "",
             "type": 0,
             "duration": 30,
             "difficulty": 2,
@@ -1207,6 +1238,7 @@
         {
             "id": 32,
             "name": "",
+            "image": "",
             "type": 2,
             "difficulty": 2,
             "workout": [{
@@ -1237,6 +1269,7 @@
         {
             "id": 33,
             "name": "",
+            "image": "",
             "type": 0,
             "duration": 30,
             "difficulty": 1,
@@ -1273,6 +1306,7 @@
         {
             "id": 34,
             "name": "",
+            "image": "",
             "type": 0,
             "duration": 30,
             "difficulty": 4,

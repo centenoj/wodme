@@ -70,6 +70,13 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.grid {
+  width: 110rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem; }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(74, 166, 181, 0.9)), url(../images/kettlebell-1045067_1920.jpg);
@@ -114,48 +121,58 @@ body {
 
 .btn--white {
   background-color: #fff;
-  color: #1e4249; }
+  color: #2c646d; }
 
 .btn--blue {
   background-color: #4aa6b5;
   color: #fff; }
 
-.grid {
-  width: 110rem;
-  margin: 0 auto;
+.card {
+  background-color: #fff;
+  height: 50rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+  transition: all .3s;
+  position: relative;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 3rem;
-  grid-row-gap: 3rem; }
-  .grid__box {
-    background-color: #fff;
-    height: 45rem;
-    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: all .3s;
-    position: relative; }
-    .grid__box:hover {
-      transform: translateY(-3px); }
-    .grid__box:active, .grid__box:focus {
-      outline: none;
-      transform: translateY(-1px);
-      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
-  .grid__image {
-    height: 45%;
-    background-image: linear-gradient(to right bottom, rgba(74, 166, 181, 0.8), rgba(30, 66, 73, 0.3)), url(../images/fitness-1882721_1920.jpg);
+  grid-template-rows: 18rem 23rem 1fr;
+  grid-gap: 2rem; }
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+  .card:active, .card:focus {
+    outline: none;
+    transform: translateY(-1px); }
+  .card__header {
+    display: grid;
+    grid-template-rows: 17rem 1fr; }
+    .card__header::after {
+      content: "";
+      height: 1px;
+      margin: .5rem auto 0 auto;
+      width: 90%;
+      background-color: #d6d6d6; }
+  .card__image {
+    background-image: url(../images/fitness-1882721_1920.jpg);
     background-position: center;
-    background-size: cover; }
-  .grid__title {
-    font-size: 3rem;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    transform: translateY(30px) rotate(-7deg);
-    padding: 1rem;
-    letter-spacing: 0.5rem; }
-  .grid__details-box {
-    background-color: red;
-    height: 55%; }
+    background-size: cover;
+    height: 16rem; }
+  .card__title-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem; }
+  .card__title {
+    font-size: 2.4rem;
+    color: #2c646d; }
+  .card__star {
+    fill: #f2b01e;
+    width: 1.6rem;
+    height: 1.6rem;
+    backface-visibility: hidden; }
+    .card__star--empty {
+      fill: #b6b6b6; }
+  .card__footer {
+    background-color: #333;
+    display: flex; }
 
 .navigation {
   padding-top: 3rem;
