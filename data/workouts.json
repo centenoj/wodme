@@ -1,14 +1,12 @@
 {
-    "types": ["As many rounds", "Time to beat", "Rep decrease", "1 minute rounds"],
-    "categories": ["Cardio", "Strength", "..."],
-    "equipments": ["None", "Pull up bar", "Ball", "Box", "Bar", "Treadmill", "Dumbbell", "Row machine", "Kettlebell", "Cable jungle", "TRX", "Squat rack", "Plate", "Bosu ball"],
+    "types": ["As many rounds", "Time to beat", "Rep decrease", "EMOTM", "Pyramid"],
+    "equipments": ["None", "Pull up bar", "Ball", "Box", "Bar", "Treadmill", "Dumbbell", "Row machine", "Kettlebell", "Cable jungle", "TRX", "Squat rack", "Plate", "Bosu ball", "Bench", "Cable jungle"],
     "workouts": [{
             "id": 1,
             "name": "Subdivisions",
             "type": 0,
             "duration": 30,
-            "difficulty": 1,
-            "category": 0,
+            "difficulty": 5,
             "workout": [{
                 "rounds": [{
                         "exercise": "Pull ups",
@@ -33,14 +31,13 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 2,
             "name": "Between the Wheels",
             "type": 1,
-            "difficulty": 1,
-            "category": 0,
+            "difficulty": 3,
             "workout": [{
                 "reps": 1,
                 "rounds": [{
@@ -86,19 +83,18 @@
                 ]
             }],
             "notes": "",
-            "results": [{
+            "best": {
                 "date": "13/09/2018",
                 "time": 1842,
                 "notes": "Squats with 20kg, Thrusters with 10kg"
-            }]
+            }
         },
         {
             "id": 3,
             "name": "Marathon",
             "type": 0,
             "duration": 30,
-            "difficulty": 2,
-            "category": 0,
+            "difficulty": 3,
             "workout": [{
                 "rounds": [{
                         "exercise": "Pull ups",
@@ -118,14 +114,13 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 4,
             "name": "Grand Designs",
             "type": 1,
-            "difficulty": 1,
-            "category": 0,
+            "difficulty": 5,
             "workout": [{
                 "reps": 5,
                 "rounds": [{
@@ -156,14 +151,13 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 5,
             "name": "Limelight",
             "type": 1,
-            "difficulty": 3,
-            "category": 0,
+            "difficulty": 2,
             "workout": [{
                 "reps": 10,
                 "rounds": [{
@@ -199,18 +193,17 @@
                 ]
             }],
             "notes": "",
-            "results": [{
+            "best": {
                 "date": "06/09/2018",
                 "time": 2076,
                 "notes": "Squats with 12kg, Snatch with 10kg, Run at 16km/h"
-            }]
+            }
         },
         {
             "id": 6,
             "name": "Superconductor",
             "type": 1,
-            "difficulty": 1,
-            "category": 0,
+            "difficulty": 2,
             "workout": [{
                 "reps": 8,
                 "rounds": [{
@@ -236,14 +229,17 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {
+                "date": "08/10/2018",
+                "time": 0,
+                "notes": "Squats with 20kg, Deadlifts with 20kg, Snatch with 10kg"
+            }
         },
         {
             "id": 7,
             "name": "Bravado",
             "type": 1,
-            "difficulty": 1,
-            "category": 0,
+            "difficulty": 3,
             "workout": [{
                 "reps": 5,
                 "rounds": [{
@@ -274,14 +270,13 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 8,
             "name": "Dreamline",
             "type": 1,
-            "difficulty": 1,
-            "category": 0,
+            "difficulty": 3,
             "workout": [{
                     "reps": 5,
                     "rounds": [{
@@ -326,14 +321,13 @@
                 }
             ],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 9,
             "name": "Animate",
             "type": 1,
-            "difficulty": 1,
-            "category": 0,
+            "difficulty": 5,
             "workout": [{
                 "reps": 1,
                 "rounds": [{
@@ -359,14 +353,13 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 10,
             "name": "Alien Shore",
             "type": 1,
-            "difficulty": 1,
-            "category": 0,
+            "difficulty": 4,
             "workout": [{
                 "reps": 10,
                 "rounds": [{
@@ -387,19 +380,18 @@
                 ]
             }],
             "notes": "",
-            "results": [{
+            "best": {
                 "date": "11/09/2018",
                 "time": 2071,
                 "notes": "Thrusters with 20kg"
-            }]
+            }
         },
         {
             "id": 11,
             "name": "Totem",
             "type": 0,
             "duration": 30,
-            "difficulty": 5,
-            "category": 0,
+            "difficulty": 2,
             "workout": [{
                 "rounds": [{
                         "exercise": "Squats",
@@ -419,14 +411,13 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 12,
             "name": "Resist",
             "type": 1,
-            "difficulty": 1,
-            "category": 0,
+            "difficulty": 3,
             "workout": [{
                 "reps": 5,
                 "rounds": [{
@@ -452,14 +443,13 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 13,
             "name": "Anthem",
             "type": 1,
-            "difficulty": 1,
-            "category": 0,
+            "difficulty": 3,
             "workout": [{
                 "reps": 5,
                 "rounds": [{
@@ -485,14 +475,13 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 14,
             "name": "Rivendell",
             "type": 1,
-            "difficulty": 1,
-            "category": 0,
+            "difficulty": 4,
             "workout": [{
                 "reps": 6,
                 "rounds": [{
@@ -518,19 +507,18 @@
                 ]
             }],
             "notes": "",
-            "results": [{
+            "best": {
                 "date": "12/09/2018",
                 "time": 1701,
                 "notes": "Squats with 70kg, Low row with 50kg"
-            }]
+            }
         },
         {
             "id": 15,
             "name": "Necromancer",
             "type": 0,
-            "difficulty": 1,
+            "difficulty": 3,
             "duration": 30,
-            "category": 0,
             "workout": [{
                 "rounds": [{
                         "exercise": "Pull ups",
@@ -550,14 +538,13 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 16,
             "name": "Xanadu",
             "type": 1,
-            "difficulty": 1,
-            "category": 0,
+            "difficulty": 3,
             "workout": [{
                     "reps": 1,
                     "rounds": [{
@@ -688,16 +675,15 @@
                 }
             ],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 17,
             "name": "Cygnus",
-            "type": 0,
-            "duration": 30,
+            "type": 1,
             "difficulty": 4,
-            "category": 0,
             "workout": [{
+                "reps": 3,
                 "rounds": [{
                         "exercise": "Squats",
                         "target": "100 reps",
@@ -721,15 +707,14 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 18,
             "name": "Caravan",
             "type": 0,
             "duration": 30,
-            "difficulty": 3,
-            "category": 0,
+            "difficulty": 2,
             "workout": [{
                 "reps": 5,
                 "rounds": [{
@@ -757,15 +742,14 @@
                 }]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 19,
             "name": "Faithless",
             "type": 0,
             "duration": 30,
-            "difficulty": 4,
-            "category": 0,
+            "difficulty": 3,
             "workout": [{
                 "reps": 5,
                 "rounds": [{
@@ -793,15 +777,14 @@
                 }]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 20,
             "name": "Earthshine",
             "type": 0,
             "duration": 30,
-            "difficulty": 3,
-            "category": 0,
+            "difficulty": 2,
             "workout": [{
                 "rounds": [{
                         "exercise": "Squats",
@@ -831,7 +814,7 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 21,
@@ -839,7 +822,6 @@
             "type": 0,
             "duration": 30,
             "difficulty": 3,
-            "category": 0,
             "workout": [{
                 "reps": 5,
                 "rounds": [{
@@ -867,15 +849,14 @@
                 }]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 22,
             "name": "Clockwork Angels",
             "type": 0,
             "duration": 30,
-            "difficulty": 3,
-            "category": 0,
+            "difficulty": 4,
             "workout": [{
                 "rounds": [{
                         "exercise": "Cleans",
@@ -900,7 +881,7 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 23,
@@ -908,7 +889,6 @@
             "type": 0,
             "duration": 30,
             "difficulty": 4,
-            "category": 0,
             "workout": [{
                 "rounds": [{
                         "exercise": "Cleans",
@@ -933,14 +913,13 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {}
         },
         {
             "id": 24,
             "name": "2112",
             "type": 2,
             "difficulty": 5,
-            "category": 0,
             "workout": [{
                 "rounds": [{
                         "exercise": "Jumps",
@@ -970,14 +949,13 @@
                 ]
             }],
             "notes": "Reduce the number of reps by two each round (19, 17, ...)",
-            "results": []
+            "best": {}
         },
         {
             "id": 25,
             "name": "Madrigal",
             "type": 2,
-            "difficulty": 2,
-            "category": 0,
+            "difficulty": 4,
             "workout": [{
                 "rounds": [{
                         "exercise": "Deadlift",
@@ -997,7 +975,7 @@
                 ]
             }],
             "notes": "Reduce the number of reps by two each round (19, 17, ...)",
-            "results": []
+            "best": {}
         },
         {
             "id": 26,
@@ -1005,7 +983,6 @@
             "type": 3,
             "duration": 30,
             "difficulty": 1,
-            "category": 0,
             "workout": [{
                 "rounds": [{
                         "exercise": "Push ups",
@@ -1042,7 +1019,297 @@
                 ]
             }],
             "notes": "",
-            "results": []
+            "best": {}
+        },
+        {
+            "id": 27,
+            "name": "",
+            "type": 2,
+            "difficulty": 4,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Ball slam",
+                        "target": "21 reps",
+                        "equipment": 2
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "21 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Sit ups",
+                        "target": "21 reps",
+                        "equipment": 12
+                    },
+                    {
+                        "exercise": "Box jump",
+                        "target": "21 reps",
+                        "equipment": 3
+                    },
+                    {
+                        "exercise": "Upper back row",
+                        "target": "21 reps",
+                        "equipment": 10
+                    }
+                ]
+            }],
+            "notes": "Reduce the number of reps by two each round (19, 17, ...)",
+            "best": {
+                "date": "06/10/2018",
+                "time": 2110,
+                "notes": "Ball slam with 12kg, Sit ups with 10kg"
+            }
+        },
+        {
+            "id": 28,
+            "name": "",
+            "type": 1,
+            "difficulty": 4,
+            "workout": [{
+                "reps": 7,
+                "rounds": [{
+                        "exercise": "Barbell chest press",
+                        "target": "12 reps",
+                        "equipment": 14
+                    },
+                    {
+                        "exercise": "Low row",
+                        "target": "12 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Tricep extension",
+                        "target": "12 reps",
+                        "equipment": 15
+                    },
+                    {
+                        "exercise": "Bicep curl",
+                        "target": "12 reps",
+                        "equipment": 15
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {
+                "date": "09/10/2018",
+                "time": 1763,
+                "notes": "Chest press with 40kg, Low row with 50kg, Tricep extension with 25kg, Bicep curl with 20kg"
+            }
+        },
+        {
+            "id": 29,
+            "name": "",
+            "type": 4,
+            "difficulty": 4,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Burpee",
+                        "target": "5 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "10 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Sit ups",
+                        "target": "15 reps",
+                        "equipment": 12
+                    },
+                    {
+                        "exercise": "Low row",
+                        "target": "10 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Burpee",
+                        "target": "5 reps",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "First round (5-10-15-10-5) Second round (10-15-20-15-10) Third round (20-25-30-25-20). Repeat rounds in the inverse order",
+            "best": {
+                "date": "12/10/2018",
+                "time": 1994,
+                "notes": "Sit ups with 10kg"
+            }
+        },
+        {
+            "id": 30,
+            "name": "",
+            "type": 4,
+            "difficulty": 3,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Box jump",
+                        "target": "5 reps",
+                        "equipment": 3
+                    },
+                    {
+                        "exercise": "Thrusters",
+                        "target": "10 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Frontal Squat",
+                        "target": "15 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Upper back",
+                        "target": "10 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Box jump",
+                        "target": "5 reps",
+                        "equipment": 3
+                    }
+                ]
+            }],
+            "notes": "First round (5-10-15-10-5) Second round (10-15-20-15-10) Third round (20-25-30-25-20). Repeat rounds in the inverse order",
+            "best": {
+                "date": "13/10/2018",
+                "time": 1979,
+                "notes": "Thrusters and Squats with 15kg"
+            }
+        },
+        {
+            "id": 31,
+            "name": "",
+            "type": 0,
+            "duration": 30,
+            "difficulty": 2,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Spiderman push ups",
+                        "target": "20 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "20 reps",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Plank switches",
+                        "target": "10 reps",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "Powered by freeletics",
+            "best": {}
+        },
+        {
+            "id": 32,
+            "name": "",
+            "type": 2,
+            "difficulty": 2,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Burpees",
+                        "target": "50 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Sit ups",
+                        "target": "50 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "50 reps",
+                        "equipment": 2
+                    }                    
+                ]
+            }],
+            "notes": "Reduce the number of reps by 10 each round (40, 30, 20, 10)",
+            "best": {
+                "date": "19/10/2018",
+                "time": 1879,
+                "notes": "Squats with 12kg"
+            }
+        },
+        {
+            "id": 33,
+            "name": "",
+            "type": 0,
+            "duration": 30,
+            "difficulty": 1,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Burpees",
+                        "target": "10 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Crunches",
+                        "target": "20 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "10 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Power lunges",
+                        "target": "20 reps",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {
+                "date": "22/10/2018",
+                "rounds": 11,
+                "notes": ""
+            }
+        },
+        {
+            "id": 34,
+            "name": "",
+            "type": 0,
+            "duration": 30,
+            "difficulty": 4,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Commando Pull ups left",
+                        "target": "5 reps",
+                        "equipment": 1
+                    },
+                    {
+                        "exercise": "Tricep dips",
+                        "target": "10 reps",
+                        "equipment": -1
+                    },
+                    {
+                        "exercise": "Commando Pull ups right",
+                        "target": "5 reps",
+                        "equipment": 1
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "10 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Hanging knee raise",
+                        "target": "10 reps",
+                        "equipment": 1
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {
+                "date": "23/10/2018",
+                "rounds": 9,
+                "notes": "Tricep dips with 35kg"
+            }
         }
     ]
 }
