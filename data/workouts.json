@@ -1,13 +1,13 @@
 {
     "types": ["As many rounds", "Time to beat", "Rep decrease", "EMOTM", "Pyramid"],
-    "equipments": ["None", "Pull up bar", "Ball", "Box", "Bar", "Treadmill", "Dumbbell", "Row machine", "Kettlebell", "Cable jungle", "TRX", "Squat rack", "Plate", "Bosu ball", "Bench", "Cable jungle"],
+    "equipments": ["None", "Pull up bar", "Medicine ball", "Box", "Bar", "Treadmill", "Dumbbell", "Row machine", "Kettlebell", "Cable jungle", "TRX", "Squat rack", "Plate", "Bosu ball", "Bench", "Cable jungle", "Slam ball"],
     "workouts": [{
             "id": 1,
             "name": "Subdivisions",
             "image": "",
             "type": 0,
             "duration": 30,
-            "difficulty": 5,
+            "difficulty": 3,
             "workout": [{
                 "rounds": [{
                         "exercise": "Pull ups",
@@ -22,7 +22,7 @@
                     {
                         "exercise": "Squats",
                         "target": "15 reps",
-                        "equipment": 2
+                        "equipment": 16
                     },
                     {
                         "exercise": "Burpee with box jump",
@@ -39,7 +39,7 @@
             "name": "Between the Wheels",
             "image": "",
             "type": 1,
-            "difficulty": 3,
+            "difficulty": 2,
             "workout": [{
                 "reps": 1,
                 "rounds": [{
@@ -97,7 +97,7 @@
             "image": "",
             "type": 0,
             "duration": 30,
-            "difficulty": 3,
+            "difficulty": 2,
             "workout": [{
                 "rounds": [{
                         "exercise": "Pull ups",
@@ -124,7 +124,7 @@
             "name": "Grand Designs",
             "image": "",
             "type": 1,
-            "difficulty": 5,
+            "difficulty": 3,
             "workout": [{
                 "reps": 5,
                 "rounds": [{
@@ -162,13 +162,13 @@
             "name": "Limelight",
             "image": "",
             "type": 1,
-            "difficulty": 2,
+            "difficulty": 1,
             "workout": [{
                 "reps": 10,
                 "rounds": [{
                         "exercise": "Squats",
                         "target": "10 reps",
-                        "equipment": 2
+                        "equipment": 16
                     },
                     {
                         "exercise": "Snatch",
@@ -209,7 +209,7 @@
             "name": "Superconductor",
             "image": "",
             "type": 1,
-            "difficulty": 2,
+            "difficulty": 1,
             "workout": [{
                 "reps": 8,
                 "rounds": [{
@@ -246,7 +246,7 @@
             "name": "Bravado",
             "image": "",
             "type": 1,
-            "difficulty": 3,
+            "difficulty": 2,
             "workout": [{
                 "reps": 5,
                 "rounds": [{
@@ -284,7 +284,7 @@
             "name": "Dreamline",
             "image": "",
             "type": 1,
-            "difficulty": 3,
+            "difficulty": 2,
             "workout": [{
                     "reps": 5,
                     "rounds": [{
@@ -336,7 +336,7 @@
             "name": "Animate",
             "image": "",
             "type": 1,
-            "difficulty": 5,
+            "difficulty": 3,
             "workout": [{
                 "reps": 1,
                 "rounds": [{
@@ -369,7 +369,7 @@
             "name": "Alien Shore",
             "image": "",
             "type": 1,
-            "difficulty": 4,
+            "difficulty": 3,
             "workout": [{
                 "reps": 10,
                 "rounds": [{
@@ -402,7 +402,7 @@
             "image": "",
             "type": 0,
             "duration": 30,
-            "difficulty": 2,
+            "difficulty": 1,
             "workout": [{
                 "rounds": [{
                         "exercise": "Squats",
@@ -429,7 +429,7 @@
             "name": "Resist",
             "image": "",
             "type": 1,
-            "difficulty": 3,
+            "difficulty": 2,
             "workout": [{
                 "reps": 5,
                 "rounds": [{
@@ -462,7 +462,7 @@
             "name": "Anthem",
             "image": "",
             "type": 1,
-            "difficulty": 3,
+            "difficulty": 2,
             "workout": [{
                 "reps": 5,
                 "rounds": [{
@@ -495,7 +495,7 @@
             "name": "Rivendell",
             "image": "",
             "type": 1,
-            "difficulty": 4,
+            "difficulty": 3,
             "workout": [{
                 "reps": 6,
                 "rounds": [{
@@ -532,7 +532,7 @@
             "name": "Necromancer",
             "image": "",
             "type": 0,
-            "difficulty": 3,
+            "difficulty": 2,
             "duration": 30,
             "workout": [{
                 "rounds": [{
@@ -560,7 +560,7 @@
             "name": "Xanadu",
             "image": "",
             "type": 1,
-            "difficulty": 3,
+            "difficulty": 2,
             "workout": [{
                     "reps": 1,
                     "rounds": [{
@@ -698,7 +698,7 @@
             "name": "Cygnus",
             "image": "",
             "type": 1,
-            "difficulty": 4,
+            "difficulty": 3,
             "workout": [{
                 "reps": 3,
                 "rounds": [{
@@ -732,7 +732,7 @@
             "image": "",
             "type": 0,
             "duration": 30,
-            "difficulty": 2,
+            "difficulty": 1,
             "workout": [{
                 "reps": 5,
                 "rounds": [{
@@ -768,7 +768,7 @@
             "image": "",
             "type": 0,
             "duration": 30,
-            "difficulty": 3,
+            "difficulty": 2,
             "workout": [{
                 "reps": 5,
                 "rounds": [{
@@ -804,7 +804,7 @@
             "image": "",
             "type": 0,
             "duration": 30,
-            "difficulty": 2,
+            "difficulty": 1,
             "workout": [{
                 "rounds": [{
                         "exercise": "Squats",
@@ -842,7 +842,7 @@
             "image": "",
             "type": 0,
             "duration": 30,
-            "difficulty": 3,
+            "difficulty": 2,
             "workout": [{
                 "reps": 5,
                 "rounds": [{
@@ -878,7 +878,7 @@
             "image": "",
             "type": 0,
             "duration": 30,
-            "difficulty": 4,
+            "difficulty": 3,
             "workout": [{
                 "rounds": [{
                         "exercise": "Cleans",
@@ -911,7 +911,7 @@
             "image": "",
             "type": 0,
             "duration": 30,
-            "difficulty": 4,
+            "difficulty": 3,
             "workout": [{
                 "rounds": [{
                         "exercise": "Cleans",
@@ -943,7 +943,7 @@
             "name": "2112",
             "image": "",
             "type": 2,
-            "difficulty": 5,
+            "difficulty": 3,
             "workout": [{
                 "rounds": [{
                         "exercise": "Jumps",
@@ -953,12 +953,12 @@
                     {
                         "exercise": "Squats",
                         "target": "21 reps",
-                        "equipment": 2
+                        "equipment": 16
                     },
                     {
                         "exercise": "Ball slam",
                         "target": "21 reps",
-                        "equipment": 2
+                        "equipment": 16
                     },
                     {
                         "exercise": "Sit ups",
@@ -980,7 +980,7 @@
             "name": "Madrigal",
             "image": "",
             "type": 2,
-            "difficulty": 4,
+            "difficulty": 3,
             "workout": [{
                 "rounds": [{
                         "exercise": "Deadlift",
@@ -1052,12 +1052,12 @@
             "name": "",
             "image": "",
             "type": 2,
-            "difficulty": 4,
+            "difficulty": 3,
             "workout": [{
                 "rounds": [{
                         "exercise": "Ball slam",
                         "target": "21 reps",
-                        "equipment": 2
+                        "equipment": 16
                     },
                     {
                         "exercise": "Push ups",
@@ -1093,7 +1093,7 @@
             "name": "",
             "image": "",
             "type": 1,
-            "difficulty": 4,
+            "difficulty": 3,
             "workout": [{
                 "reps": 7,
                 "rounds": [{
@@ -1130,7 +1130,7 @@
             "name": "",
             "image": "",
             "type": 4,
-            "difficulty": 4,
+            "difficulty": 3,
             "workout": [{
                 "rounds": [{
                         "exercise": "Burpee",
@@ -1171,7 +1171,7 @@
             "name": "",
             "image": "",
             "type": 4,
-            "difficulty": 3,
+            "difficulty": 2,
             "workout": [{
                 "rounds": [{
                         "exercise": "Box jump",
@@ -1213,7 +1213,7 @@
             "image": "",
             "type": 0,
             "duration": 30,
-            "difficulty": 2,
+            "difficulty": 1,
             "workout": [{
                 "rounds": [{
                         "exercise": "Spiderman push ups",
@@ -1240,7 +1240,7 @@
             "name": "",
             "image": "",
             "type": 2,
-            "difficulty": 2,
+            "difficulty": 1,
             "workout": [{
                 "rounds": [{
                         "exercise": "Burpees",
@@ -1255,7 +1255,7 @@
                     {
                         "exercise": "Squats",
                         "target": "50 reps",
-                        "equipment": 2
+                        "equipment": 16
                     }                    
                 ]
             }],
@@ -1309,7 +1309,7 @@
             "image": "",
             "type": 0,
             "duration": 30,
-            "difficulty": 4,
+            "difficulty": 3,
             "workout": [{
                 "rounds": [{
                         "exercise": "Commando Pull ups left",
