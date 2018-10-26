@@ -1344,6 +1344,43 @@
                 "rounds": 9,
                 "notes": "Tricep dips with 35kg"
             }
+        },
+        {
+            "id": 35,
+            "name": "",
+            "image": "",
+            "type": 0,
+            "duration": 30,
+            "difficulty": 1,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Plank switches",
+                        "target": "5 reps",
+                        "equipment": 1
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "10 reps",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Lunges",
+                        "target": "20 reps",
+                        "equipment": 8
+                    },
+                    {
+                        "exercise": "Mountain climbers",
+                        "target": "30 reps",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {
+                "date": "26/10/2018",
+                "rounds": 10,
+                "notes": "Lunges with 12kg"
+            }
         }
     ]
 }
