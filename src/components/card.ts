@@ -16,6 +16,7 @@ export default class Card {
         wod.duration = typeof obj.duration !== 'undefined' ? obj.duration : '';
         wod.rounds = this.getRounds(obj);
         wod.best = this.getBest(obj);
+        wod.notes = obj.best.notes;
 
         return this.interpolate(template, wod);
     }

@@ -36,6 +36,7 @@ export default
                 <use xlink:href="./assets/images/sprite.svg#icon-trophy"></use>
             </svg>
             <div>{best}</div>
+            <span class="card__tooltip">{notes}</span>
         </li> 
     </ul>
 </div>`;
