@@ -3,5 +3,6 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 3rem;
+    grid-row-gap: 6rem;
+    grid-column-gap: 3rem;
 }

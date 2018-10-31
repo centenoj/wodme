@@ -1,9 +1,19 @@
-export default class Wods {
+class Wods {
 
     private data: any;
 
-    constructor(source: string) {
+    constructor() {}
+
+    setData(source: string) {
         this.data = JSON.parse(source);
+    }
+
+    getType(index: number) {
+        return this.data.types[index];
+    }
+
+    getEquipment(index: number) {
+        return this.data.equipments[index];
     }
 
     getRandom() {
@@ -43,3 +53,6 @@ export default class Wods {
         return this.data.workouts;
     }
 }
+
+const wods = new Wods();
+export default wods;
