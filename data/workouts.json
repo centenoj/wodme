@@ -271,7 +271,7 @@
                     },
                     {
                         "exercise": "Abs Plank",
-                        "target": "1 minute",
+                        "target": "1min",
                         "equipment": 6
                     }
                 ]
@@ -515,7 +515,7 @@
                     },
                     {
                         "exercise": "Plank",
-                        "target": "1 minute",
+                        "target": "1min",
                         "equipment": 0
                     }
                 ]
@@ -565,7 +565,7 @@
                     "reps": 1,
                     "rounds": [{
                         "exercise": "Squats",
-                        "target": "1 minute",
+                        "target": "1min",
                         "equipment": 11
                     }]
                 },
@@ -573,12 +573,12 @@
                     "reps": 1,
                     "rounds": [{
                             "exercise": "Squats",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 11
                         },
                         {
                             "exercise": "Push ups",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 0
                         }
                     ]
@@ -587,17 +587,17 @@
                     "reps": 1,
                     "rounds": [{
                             "exercise": "Squats",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 11
                         },
                         {
                             "exercise": "Push ups",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 0
                         },
                         {
                             "exercise": "Upper back row",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 10
                         }
                     ]
@@ -606,22 +606,22 @@
                     "reps": 1,
                     "rounds": [{
                             "exercise": "Squats",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 11
                         },
                         {
                             "exercise": "Push ups",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 0
                         },
                         {
                             "exercise": "Upper back row",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 10
                         },
                         {
                             "exercise": "Tricep dips",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 3
                         }
                     ]
@@ -630,27 +630,27 @@
                     "reps": 1,
                     "rounds": [{
                             "exercise": "Squats",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 11
                         },
                         {
                             "exercise": "Push ups",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 0
                         },
                         {
                             "exercise": "Upper back row",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 10
                         },
                         {
                             "exercise": "Tricep dips",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 3
                         },
                         {
                             "exercise": "Wall ball",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 2
                         }
                     ]
@@ -659,32 +659,32 @@
                     "reps": 1,
                     "rounds": [{
                             "exercise": "Squats",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 11
                         },
                         {
                             "exercise": "Push ups",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 0
                         },
                         {
                             "exercise": "Upper back row",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 10
                         },
                         {
                             "exercise": "Tricep dips",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 3
                         },
                         {
                             "exercise": "Wall ball",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 2
                         },
                         {
                             "exercise": "Burpees",
-                            "target": "1 minute",
+                            "target": "1min",
                             "equipment": 0
                         }
                     ]
@@ -1049,7 +1049,7 @@
         },
         {
             "id": 27,
-            "name": "",
+            "name": "Lamneth",
             "image": "",
             "type": 2,
             "difficulty": 3,
@@ -1090,7 +1090,7 @@
         },
         {
             "id": 28,
-            "name": "",
+            "name": "By-Tor",
             "image": "",
             "type": 1,
             "difficulty": 3,
@@ -1127,7 +1127,7 @@
         },
         {
             "id": 29,
-            "name": "",
+            "name": "Cygnus",
             "image": "",
             "type": 4,
             "difficulty": 3,
@@ -1168,7 +1168,7 @@
         },
         {
             "id": 30,
-            "name": "",
+            "name": "Villa Strangiato",
             "image": "",
             "type": 4,
             "difficulty": 2,
@@ -1209,7 +1209,7 @@
         },
         {
             "id": 31,
-            "name": "",
+            "name": "Red Barchetta",
             "image": "",
             "type": 0,
             "duration": 30,
@@ -1237,7 +1237,7 @@
         },
         {
             "id": 32,
-            "name": "",
+            "name": "Vital Signs",
             "image": "",
             "type": 2,
             "difficulty": 1,
@@ -1268,7 +1268,7 @@
         },
         {
             "id": 33,
-            "name": "",
+            "name": "Chemistry",
             "image": "",
             "type": 0,
             "duration": 30,
@@ -1305,7 +1305,7 @@
         },
         {
             "id": 34,
-            "name": "",
+            "name": "Countdown",
             "image": "",
             "type": 0,
             "duration": 30,
@@ -1347,7 +1347,7 @@
         },
         {
             "id": 35,
-            "name": "",
+            "name": "Manhattan Project",
             "image": "",
             "type": 0,
             "duration": 30,
@@ -1384,7 +1384,7 @@
         },
         {
             "id": 36,
-            "name": "",
+            "name": "Territories",
             "image": "",
             "type": 0,
             "duration": 30,
@@ -1421,7 +1421,7 @@
         },
         {
             "id": 37,
-            "name": "",
+            "name": "Second Nature",
             "image": "",
             "type": 0,
             "duration": 30,
@@ -1445,6 +1445,167 @@
                     {
                         "exercise": "Push ups",
                         "target": "10x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {}
+        },
+        {
+            "id": 38,
+            "name": "High Water",
+            "image": "",
+            "type": 0,
+            "duration": 30,
+            "difficulty": 1,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Crunches",
+                        "target": "30x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "15x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Sit ups",
+                        "target": "30x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "30x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "15x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {
+                "date": "03/11/2018",
+                "rounds": 6,
+                "notes": ""
+            }
+        },
+        {
+            "id": 39,
+            "name": "Lock and Key",
+            "image": "",
+            "type": 1,
+            "difficulty": 3,
+            "workout": [{
+                "reps": 1,
+                "rounds": [{
+                        "exercise": "Burpees",
+                        "target": "100x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Lunges",
+                        "target": "125x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Climbers",
+                        "target": "150x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Sit ups",
+                        "target": "125x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Climbers",
+                        "target": "150x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Lunges",
+                        "target": "125x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "100x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {}
+        },
+        {
+            "id": 40,
+            "name": "Force Ten",
+            "image": "",
+            "type": 1,
+            "difficulty": 3,
+            "workout": [{
+                "reps": 1,
+                "rounds": [{
+                        "exercise": "Burpees",
+                        "target": "50x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Pull ups",
+                        "target": "50x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "100x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "150x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "50x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {}
+        },
+        {
+            "id": 41,
+            "name": "Anagram",
+            "image": "",
+            "type": 1,
+            "difficulty": 2,
+            "workout": [{
+                "reps": 14,
+                "rounds": [{
+                        "exercise": "Clapping push ups",
+                        "target": "5x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "High knees",
+                        "target": "20x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "10x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Mountain climbers",
+                        "target": "30x",
                         "equipment": 0
                     }
                 ]
