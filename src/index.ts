@@ -26,6 +26,18 @@ const body: any = document.querySelector('body');
 
 body.onscroll = () => {
 
-    const btnFilterAnimation = `btn-filter btn-filter--${(window.scrollY >= 700) ? 'fadeIn' : 'fadeOut'}`;
-    (document.querySelector('.btn-filter') as any).className = btnFilterAnimation;
+    const actionButtons = (document.querySelectorAll('.btn-filter') as any);
+    actionButtons.forEach(btn => {
+
+        if (window.scrollY >= 700 && btn.className.indexOf('fadeIn') === -1)  {
+            console.log('fade in applied');
+            btn.className = 'btn-filter btn-filter--fadeIn';
+        }
+
+        else if (window.scrollY < 700 && btn.className.indexOf('fadeIn') !== -1) {
+            console.log('fade out applied');
+            btn.className = 'btn-filter btn-filter--fadeOut';
+        }
+
+    });
 }

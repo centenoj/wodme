@@ -1612,6 +1612,49 @@
             }],
             "notes": "",
             "best": {}
+        },
+        {
+            "id": 42,
+            "name": "Neurotica",
+            "image": "",
+            "type": 1,
+            "difficulty": 2,
+            "workout": [{
+                "reps": 8,
+                "rounds": [{
+                        "exercise": "Clapping push ups",
+                        "target": "6x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squat jumps",
+                        "target": "6x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Spiderman push ups",
+                        "target": "12x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Lunges",
+                        "target": "12x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "18x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "18x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {}
         }
     ]
 }
