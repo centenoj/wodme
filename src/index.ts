@@ -21,4 +21,11 @@ class App {
     }
 }
 
-var app = new App();
+const app = new App();
+const body: any = document.querySelector('body');
+
+body.onscroll = () => {
+
+    const btnFilterAnimation = `btn-filter btn-filter--${(window.scrollY >= 700) ? 'fadeIn' : 'fadeOut'}`;
+    (document.querySelector('.btn-filter') as any).className = btnFilterAnimation;
+}

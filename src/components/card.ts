@@ -27,9 +27,9 @@ export default class Card {
 
         wod.workout.forEach(wk => {
 
-            for (let i = 0, lenIx = wk.rounds.length; i < lenIx; i++) {
-                rounds += this.createRound(wk.rounds[i], (i === 0) ? 'card__rounds--first' : '');
-            }
+            wk.rounds.forEach((r, i) => {
+                rounds += this.createRound(r, (i === 0) ? 'card__rounds--first' : '');
+            });
 
             if (typeof wk.reps !== 'undefined') {
                 rounds += `<li class="card__count"><b>Reps: </b>${wk.reps}</li>`
