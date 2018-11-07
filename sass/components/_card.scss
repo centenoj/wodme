@@ -31,7 +31,7 @@
     &__title-box {
         display: flex;
         flex-direction: column;
-        margin-left: 1.5rem;
+        padding: 0 2rem;
     }
 
     &__title {
@@ -67,7 +67,7 @@
     }
 
     &__content {
-        padding: 0 1.5rem;
+        padding: 0 2rem;
         overflow-y: auto;
     }
 

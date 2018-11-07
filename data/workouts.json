@@ -3,8 +3,8 @@
     "equipments": ["None", "Pull up bar", "Medicine ball", "Box", "Bar", "Treadmill", "Dumbbell", "Row machine", "Kettlebell", "Cable jungle", "TRX", "Squat rack", "Plate", "Bosu ball", "Bench", "Cable jungle", "Slam ball"],
     "workouts": [{
             "id": 1,
-            "name": "Subdivisions",
-            "image": "",
+            "name": "Ursus",
+            "image": "workout_1.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 3,
@@ -36,8 +36,8 @@
         },
         {
             "id": 2,
-            "name": "Between the Wheels",
-            "image": "",
+            "name": "Vulpes",
+            "image": "workout_2.jpg",
             "type": 1,
             "difficulty": 2,
             "workout": [{
@@ -93,8 +93,8 @@
         },
         {
             "id": 3,
-            "name": "Marathon",
-            "image": "",
+            "name": "Lupus",
+            "image": "workout_3.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 2,
@@ -121,8 +121,8 @@
         },
         {
             "id": 4,
-            "name": "Grand Designs",
-            "image": "",
+            "name": "Vespertilio",
+            "image": "workout_4.jpg",
             "type": 1,
             "difficulty": 3,
             "workout": [{
@@ -159,8 +159,8 @@
         },
         {
             "id": 5,
-            "name": "Limelight",
-            "image": "",
+            "name": "Lacertus",
+            "image": "workout_5.jpg",
             "type": 1,
             "difficulty": 1,
             "workout": [{
@@ -206,8 +206,8 @@
         },
         {
             "id": 6,
-            "name": "Superconductor",
-            "image": "",
+            "name": "Acinonyx",
+            "image": "workout_6.jpg",
             "type": 1,
             "difficulty": 1,
             "workout": [{
@@ -243,8 +243,8 @@
         },
         {
             "id": 7,
-            "name": "Bravado",
-            "image": "",
+            "name": "Buteo",
+            "image": "workout_7.jpg",
             "type": 1,
             "difficulty": 2,
             "workout": [{
@@ -281,8 +281,8 @@
         },
         {
             "id": 8,
-            "name": "Dreamline",
-            "image": "",
+            "name": "Puma",
+            "image": "workout_8.jpg",
             "type": 1,
             "difficulty": 2,
             "workout": [{
@@ -333,8 +333,8 @@
         },
         {
             "id": 9,
-            "name": "Animate",
-            "image": "",
+            "name": "Crocodilus",
+            "image": "workout_9.jpg",
             "type": 1,
             "difficulty": 3,
             "workout": [{
@@ -366,8 +366,8 @@
         },
         {
             "id": 10,
-            "name": "Alien Shore",
-            "image": "",
+            "name": "Cervus",
+            "image": "workout_10.jpg",
             "type": 1,
             "difficulty": 3,
             "workout": [{
@@ -398,8 +398,8 @@
         },
         {
             "id": 11,
-            "name": "Totem",
-            "image": "",
+            "name": "Delphis",
+            "image": "workout_11.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 1,
@@ -426,8 +426,8 @@
         },
         {
             "id": 12,
-            "name": "Resist",
-            "image": "",
+            "name": "Aquila",
+            "image": "workout_12.jpg",
             "type": 1,
             "difficulty": 2,
             "workout": [{
@@ -459,8 +459,8 @@
         },
         {
             "id": 13,
-            "name": "Anthem",
-            "image": "",
+            "name": "Mammuthus",
+            "image": "workout_13.jpg",
             "type": 1,
             "difficulty": 2,
             "workout": [{
@@ -492,8 +492,8 @@
         },
         {
             "id": 14,
-            "name": "Rivendell",
-            "image": "",
+            "name": "Spheniscidae",
+            "image": "workout_14.jpg",
             "type": 1,
             "difficulty": 3,
             "workout": [{
@@ -529,8 +529,8 @@
         },
         {
             "id": 15,
-            "name": "Necromancer",
-            "image": "",
+            "name": "Falco",
+            "image": "workout_15.jpg",
             "type": 0,
             "difficulty": 2,
             "duration": 30,
@@ -557,8 +557,8 @@
         },
         {
             "id": 16,
-            "name": "Xanadu",
-            "image": "",
+            "name": "Balaena",
+            "image": "workout_16.jpg",
             "type": 1,
             "difficulty": 2,
             "workout": [{
@@ -695,8 +695,8 @@
         },
         {
             "id": 17,
-            "name": "Cygnus",
-            "image": "",
+            "name": "Rana",
+            "image": "workout_17.jpg",
             "type": 1,
             "difficulty": 3,
             "workout": [{
@@ -728,8 +728,8 @@
         },
         {
             "id": 18,
-            "name": "Caravan",
-            "image": "",
+            "name": "Camelopardalis",
+            "image": "workout_18.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 1,
@@ -764,8 +764,8 @@
         },
         {
             "id": 19,
-            "name": "Faithless",
-            "image": "",
+            "name": "Squalus",
+            "image": "workout_19.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 2,
@@ -800,8 +800,8 @@
         },
         {
             "id": 20,
-            "name": "Earthshine",
-            "image": "",
+            "name": "Erinaceus",
+            "image": "workout_20.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 1,
@@ -838,8 +838,8 @@
         },
         {
             "id": 21,
-            "name": "Ghost Rider",
-            "image": "",
+            "name": "Belbus",
+            "image": "workout_21.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 2,
@@ -874,8 +874,8 @@
         },
         {
             "id": 22,
-            "name": "Clockwork Angels",
-            "image": "",
+            "name": "Rhino",
+            "image": "workout_22.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 3,
@@ -907,8 +907,8 @@
         },
         {
             "id": 23,
-            "name": "Natural Science",
-            "image": "",
+            "name": "Turtur",
+            "image": "workout_23.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 3,
@@ -940,8 +940,8 @@
         },
         {
             "id": 24,
-            "name": "2112",
-            "image": "",
+            "name": "Tigris",
+            "image": "workout_24.jpg",
             "type": 2,
             "difficulty": 3,
             "workout": [{
@@ -977,8 +977,8 @@
         },
         {
             "id": 25,
-            "name": "Madrigal",
-            "image": "",
+            "name": "Halmaturus",
+            "image": "workout_25.jpg",
             "type": 2,
             "difficulty": 3,
             "workout": [{
@@ -1004,8 +1004,8 @@
         },
         {
             "id": 26,
-            "name": "Afterimage",
-            "image": "",
+            "name": "Komodo",
+            "image": "workout_26.jpg",
             "type": 3,
             "duration": 30,
             "difficulty": 1,
@@ -1049,8 +1049,8 @@
         },
         {
             "id": 27,
-            "name": "Lamneth",
-            "image": "",
+            "name": "Equus",
+            "image": "workout_27.jpg",
             "type": 2,
             "difficulty": 3,
             "workout": [{
@@ -1090,8 +1090,8 @@
         },
         {
             "id": 28,
-            "name": "By-Tor",
-            "image": "",
+            "name": "Leo",
+            "image": "workout_28.jpg",
             "type": 1,
             "difficulty": 3,
             "workout": [{
@@ -1127,8 +1127,8 @@
         },
         {
             "id": 29,
-            "name": "Cygnus",
-            "image": "",
+            "name": "Psittacus",
+            "image": "workout_29.jpg",
             "type": 4,
             "difficulty": 3,
             "workout": [{
@@ -1168,8 +1168,8 @@
         },
         {
             "id": 30,
-            "name": "Villa Strangiato",
-            "image": "",
+            "name": "Manta",
+            "image": "workout_30.jpg",
             "type": 4,
             "difficulty": 2,
             "workout": [{
@@ -1209,8 +1209,8 @@
         },
         {
             "id": 31,
-            "name": "Red Barchetta",
-            "image": "",
+            "name": "Simia",
+            "image": "workout_31.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 1,
@@ -1237,8 +1237,8 @@
         },
         {
             "id": 32,
-            "name": "Vital Signs",
-            "image": "",
+            "name": "Struthio",
+            "image": "workout_32.jpg",
             "type": 2,
             "difficulty": 1,
             "workout": [{
@@ -1268,8 +1268,8 @@
         },
         {
             "id": 33,
-            "name": "Chemistry",
-            "image": "",
+            "name": "Panthera",
+            "image": "workout_33.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 1,
@@ -1305,8 +1305,8 @@
         },
         {
             "id": 34,
-            "name": "Countdown",
-            "image": "",
+            "name": "Pavo",
+            "image": "workout_34.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 3,
@@ -1347,8 +1347,8 @@
         },
         {
             "id": 35,
-            "name": "Manhattan Project",
-            "image": "",
+            "name": "Cuniculus",
+            "image": "workout_35.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 1,
@@ -1384,8 +1384,8 @@
         },
         {
             "id": 36,
-            "name": "Territories",
-            "image": "",
+            "name": "Serpens",
+            "image": "workout_36.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 2,
@@ -1421,8 +1421,8 @@
         },
         {
             "id": 37,
-            "name": "Second Nature",
-            "image": "",
+            "name": "Scorpio",
+            "image": "workout_37.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 1,
@@ -1454,8 +1454,8 @@
         },
         {
             "id": 38,
-            "name": "High Water",
-            "image": "",
+            "name": "Hippocampus",
+            "image": "workout_38.jpg",
             "type": 0,
             "duration": 30,
             "difficulty": 1,
@@ -1496,8 +1496,8 @@
         },
         {
             "id": 39,
-            "name": "Lock and Key",
-            "image": "",
+            "name": "Araneus",
+            "image": "workout_39.jpg",
             "type": 1,
             "difficulty": 3,
             "workout": [{
@@ -1544,8 +1544,8 @@
         },
         {
             "id": 40,
-            "name": "Force Ten",
-            "image": "",
+            "name": "Asterias",
+            "image": "workout_40.jpg",
             "type": 1,
             "difficulty": 3,
             "workout": [{
@@ -1582,8 +1582,8 @@
         },
         {
             "id": 41,
-            "name": "Anagram",
-            "image": "",
+            "name": "Cygnus",
+            "image": "workout_41.jpg",
             "type": 1,
             "difficulty": 2,
             "workout": [{
@@ -1615,8 +1615,8 @@
         },
         {
             "id": 42,
-            "name": "Neurotica",
-            "image": "",
+            "name": "Vespa",
+            "image": "workout_42.jpg",
             "type": 1,
             "difficulty": 2,
             "workout": [{

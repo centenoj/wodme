@@ -1,7 +1,7 @@
 export default 
 `<div class="card">
     <div class="card__header">
-        <div class="card__image" style="background-image: url(assets/images/{image})"></div>     
+        <div class="card__image" style="background-image: url(assets/images/workouts/{image})"></div>     
         <div class="card__title-box">
             <h3 class="card__title">{name}</h3>
             <div class="card__star card__star--{difficulty}">

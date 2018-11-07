@@ -51,9 +51,7 @@
     border: 1px solid $color-grey-light-3;
     box-shadow: 0 .5rem 1rem rgba($color-black,.2);
     cursor: pointer;
-    background-color: $color-primary-dark; 
-    transition: all .2s;
-    
+    background-color: $color-primary-dark;     
 
     &--fadeIn {
         animation: fadeIn .8s forwards;
