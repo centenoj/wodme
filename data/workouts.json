@@ -1189,7 +1189,7 @@
                         "equipment": 4
                     },
                     {
-                        "exercise": "Upper back",
+                        "exercise": "Upper back row",
                         "target": "10x",
                         "equipment": 4
                     },
@@ -1653,6 +1653,110 @@
                     }
                 ]
             }],
+            "notes": "",
+            "best": {}
+        },
+        {
+            "id": 43,
+            "name": "",
+            "image": "workout_43.jpg",
+            "type": 1,
+            "difficulty": 1,
+            "workout": [{
+                "reps": 3,
+                "rounds": [{
+                        "exercise": "Burpees",
+                        "target": "10x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "20x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "30x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Sit ups",
+                        "target": "40x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Wall ball",
+                        "target": "50x",
+                        "equipment": 2
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {
+                "date": "09/11/2018",
+                "time": 1938,
+                "notes": ""
+            }
+        },
+        {
+            "id": 44,
+            "name": "",
+            "image": "workout_44.jpg",
+            "type": 0,
+            "duration": 30,
+            "difficulty": 2,
+            "workout": [{
+                    "reps": 10,
+                    "rounds": [{
+                            "exercise": "Low row",
+                            "target": "1x",
+                            "equipment": 10
+                        },
+                        {
+                            "exercise": "Upper back row",
+                            "target": "1x",
+                            "equipment": 10
+                        }
+                    ]
+                },
+                {
+                    "reps": 10,
+                    "rounds": [{
+                            "exercise": "Push ups",
+                            "target": "1x",
+                            "equipment": 0
+                        },
+                        {
+                            "exercise": "Tricep push ups",
+                            "target": "1x",
+                            "equipment": 0
+                        }
+                    ]
+                },
+                {
+                    "reps": 10,
+                    "rounds": [{
+                            "exercise": "Squats",
+                            "target": "1x",
+                            "equipment": 0
+                        },
+                        {
+                            "exercise": "Lunges",
+                            "target": "2x",
+                            "equipment": 0
+                        }
+                    ]
+                },
+                {
+                    "reps": 1,
+                    "rounds": [{
+                            "exercise": "Burpee with box jump",
+                            "target": "10x",
+                            "equipment": 0
+                        }
+                    ]
+                }
+            ],
             "notes": "",
             "best": {}
         }

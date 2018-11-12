@@ -1,7 +1,5 @@
 .grid {
     padding: 0 10rem;
-    //width: 110rem;
-    //margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 35rem));    
     grid-row-gap: 6rem;
