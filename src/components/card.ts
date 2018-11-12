@@ -9,6 +9,58 @@ export default class Card {
         return this.getTemplate(template, wod);
     }
 
+    compress() {
+        document.querySelectorAll('.card').forEach(c => {
+            c.classList.remove('card--expand');
+            c.classList.add('card--compress');
+        });
+
+        document.querySelectorAll('.card__image').forEach((img: any) => {
+            let backgroundImg = `linear-gradient(to right bottom, rgba(0,0,0, 0.9), rgba(44, 100, 109, 0.7)), ${img.style.backgroundImage}`;
+            img.style.backgroundImage = backgroundImg;
+        })
+
+        document.querySelectorAll('.card__title-box').forEach(tb => {
+            tb.classList.add('card__title-box--compress');
+        });
+
+        document.querySelectorAll('.card__title').forEach(t => {
+            t.classList.add('card__title--compress');
+        });
+
+        document.querySelectorAll('.card__content').forEach(cnt => {
+            cnt.classList.add('card__content--compress');
+        });
+        
+        (document.querySelector('.grid') as any).classList.add('grid--compress');
+    }
+
+    expand() {
+        document.querySelectorAll('.card').forEach(c => {
+            c.classList.remove('card--compress');
+            c.classList.add('card--expand');
+        });
+
+        document.querySelectorAll('.card__image').forEach((img: any) => {
+            let backgroundImg = `url${img.style.backgroundImage.split('url')[1]}`;
+            img.style.backgroundImage = backgroundImg;
+        })
+
+        document.querySelectorAll('.card__title-box').forEach(tb => {
+            tb.classList.remove('card__title-box--compress');
+        });
+
+        document.querySelectorAll('.card__title').forEach(t => {
+            t.classList.remove('card__title--compress');
+        });
+
+        document.querySelectorAll('.card__content').forEach(cnt => {
+            cnt.classList.remove('card__content--compress');
+        });    
+        
+        (document.querySelector('.grid') as any).classList.remove('grid--compress');
+    }
+
     private getTemplate(template, obj) {
 
         let wod = Object.assign({}, obj);

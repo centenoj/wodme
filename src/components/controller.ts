@@ -11,6 +11,14 @@ export default class Controller {
 
     constructor() {}
 
+    private compressCard() {
+        this.card.compress();
+    }
+
+    private expandCard() {
+        this.card.expand();
+    }
+
     loadData(callback: any) {
         this.request.get(callback);
     }
@@ -28,9 +36,22 @@ export default class Controller {
 
             li.innerHTML = this.card.getNode(wod);
 
-
-
             if (grid !== null) grid.appendChild(li);
         });
+    }
+
+    updateCardSize() {
+        const cardEl: any = document.querySelector('.card');
+        const btn: any = document.querySelector('#action-size use');
+        
+        if (cardEl.className.indexOf('--expand') !== -1) {
+            this.compressCard();
+            btn.setAttribute('xlink:href', './assets/images/sprite.svg#icon-expand');
+        } 
+        else {
+            this.expandCard();
+            btn.setAttribute('xlink:href', './assets/images/sprite.svg#icon-compress');
+        }
+        
     }
 }

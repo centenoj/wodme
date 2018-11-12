@@ -5,4 +5,8 @@
     grid-row-gap: 6rem;
     grid-column-gap: 3rem;
     justify-content: center;
+
+    &--compress {
+        grid-row-gap: 3rem;
+    }
 }

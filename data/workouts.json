@@ -1759,6 +1759,73 @@
             ],
             "notes": "",
             "best": {}
+        },
+        {
+            "id": 45,
+            "name": "",
+            "image": "workout_45.jpg",
+            "type": 3,
+            "duration": 28,
+            "difficulty": 1,
+            "workout": [{
+                    "reps": 1,
+                    "rounds": [{
+                        "exercise": "Lunges",
+                        "target": "24x",
+                        "equipment": 8
+                    }]
+                },
+                {
+                    "reps": 1,
+                    "rounds": [{
+                        "exercise": "Push ups",
+                        "target": "15x",
+                        "equipment": 0
+                    }]
+                },
+                {
+                    "reps": 1,
+                    "rounds": [{
+                        "exercise": "Low row",
+                        "target": "15x",
+                        "equipment": 4
+                    }]
+                },
+                {
+                    "reps": 1,
+                    "rounds": [{
+                        "exercise": "Burpees",
+                        "target": "10x",
+                        "equipment": 0
+                    }]
+                },
+                {
+                    "reps": 1,
+                    "rounds": [{
+                        "exercise": "Squat Push-press",
+                        "target": "15x",
+                        "equipment": 6
+                    }]
+                },
+                {
+                    "reps": 1,
+                    "rounds": [{
+                        "exercise": "Plank with shoulder taps",
+                        "target": "20x",
+                        "equipment": 0
+                    }]
+                },
+                {
+                    "reps": 1,
+                    "rounds": [{
+                        "exercise": "Jumping jacks",
+                        "target": "30x",
+                        "equipment": 0
+                    }]
+                }
+            ],
+            "notes": "",
+            "best": {}
         }
     ]
 }

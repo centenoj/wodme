@@ -1,28 +1,30 @@
 .card {
     background-color: $color-white;
-    height: 60rem;
     box-shadow: 0 2rem 5rem rgba($color-black, .1);
     transition: all .3s;
     position: relative;
     display: grid;
-    grid-template-rows: 23rem 1fr 5rem;
-    grid-gap: 2rem;
+
+    &--expand {
+        grid-template-rows: 23rem 1fr 5rem;
+        height: 60rem;
+        grid-gap: 2rem;
+    }
+
+    &--compress {
+        grid-template-rows: 16rem 5rem;
+        grid-gap: .1rem;
+    }
 
     &__header {
         display: grid;
         grid-template-rows: 17rem 1fr;
 
-        &::after {
-            content: "";
-            height: 1px;
-            margin: 0 auto;
-            width: 90%;
-            background-color: $color-grey-light-3;
-        }
+        
     }
 
     &__image {
-        background-image: url(../images/fitness-1882721_1920.jpg);
+        //background-image: linear-gradient(to right bottom, rgba($color-primary-dark, 0.6), rgba($color-black, 0.9)), url(../images/fitness-1882721_1920.jpg);
         background-position: center;
         background-size: cover;
         height: 16rem;
@@ -32,11 +34,20 @@
         display: flex;
         flex-direction: column;
         padding: 0 2rem;
+
+        &--compress {
+            position: absolute;
+            padding: 1rem 2rem;
+        }
     }
 
     &__title {
         font-size: 2.4rem;
         color: $color-primary-dark;
+
+        &--compress {
+            color: $color-grey-light-2;
+        }
     }
 
     &__star {
@@ -69,6 +80,10 @@
     &__content {
         padding: 0 2rem;
         overflow-y: auto;
+
+        &--compress {
+            display: none;
+        }
     }
 
     &__round-title {

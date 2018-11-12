@@ -52,6 +52,10 @@ class Wods {
     getAll() {
         return this.data.workouts;
     }
+
+    getTotal() {
+        return this.data.workouts.length;
+    }
 }
 
 const wods = new Wods();
