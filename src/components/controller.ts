@@ -47,10 +47,12 @@ export default class Controller {
         if (cardEl.className.indexOf('--expand') !== -1) {
             this.compressCard();
             btn.setAttribute('xlink:href', './assets/images/sprite.svg#icon-expand');
+            localStorage.setItem('grid-size', 'compress');
         } 
         else {
             this.expandCard();
             btn.setAttribute('xlink:href', './assets/images/sprite.svg#icon-compress');
+            localStorage.setItem('grid-size', 'expand');
         }
         
     }

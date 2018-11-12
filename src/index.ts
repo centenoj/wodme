@@ -10,6 +10,9 @@ class App {
         else {
             this.controller.setWods();
             this.controller.createWorkoutGrid();
+            if (typeof localStorage['grid-size'] !== 'undefined' && localStorage['grid-size'] === 'compress') {
+                this.controller.updateCardSize();
+            }
         }    
 
     }
@@ -22,6 +25,9 @@ class App {
         localStorage.setItem('data-workouts', response);
         this.controller.setWods();
         this.controller.createWorkoutGrid();
+        if (typeof localStorage['grid-size'] !== 'undefined' && localStorage['grid-size'] === 'compress') {
+            this.controller.updateCardSize();
+        }
     }
 }
 
