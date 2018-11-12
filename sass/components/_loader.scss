@@ -1,0 +1,16 @@
+.loading-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color-black, 0.9);
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    
+    img {
+        width: 20rem;
+        height: 20rem;
+    }
+}

@@ -1825,7 +1825,11 @@
                 }
             ],
             "notes": "",
-            "best": {}
+            "best": {
+                "date": "12/11/2018",
+                "time": 0,
+                "notes": "Lunges with 12kg<br/>Low row with 40kg<br/>Squats Push-press with 10kg"
+            }
         }
     ]
 }

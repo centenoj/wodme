@@ -26,3 +26,7 @@ body {
     //padding: 4rem;
     background-color: $color-white;
 }
+
+.noscroll {
+    overflow-y: hidden;
+}
