@@ -15,6 +15,52 @@ class App {
             }
         }    
 
+        const cardList : any = document.querySelectorAll('.card__header');
+        const body: any = document.querySelector('body');
+        const btnCardSize: any = document.querySelector('#btn-size');
+        const btnFilter: any = document.querySelector('#btn-filter');
+        const modal: any = document.querySelector('.modal');
+
+        cardList.forEach(c => {
+            c.onclick = (e:Event) => {
+                if (c.className.indexOf('card__header--compress') !== -1) {
+                    this.controller.openModal(parseInt(c.parentElement.getAttribute('data-id')));
+                }
+            }
+        });
+        
+        body.onscroll = (e: Event) => this.onscroll();
+        
+        btnCardSize.onclick = () => {
+            this.updateCardSize();    
+            return false;
+        }
+        
+        btnFilter.onclick = () => {
+            return false;
+        }
+
+        modal.onclick = (e: Event) => {
+            if ((e.target as any).className.indexOf('modal--show') !== -1) {
+                this.controller.closeModal();
+            }
+        }
+    }
+
+    onscroll() {
+        const scrollPosition = 700;
+        const actionButtons = (document.querySelectorAll('.btn-filter') as any);
+        actionButtons.forEach(btn => {
+    
+            if (window.scrollY >= scrollPosition && btn.className.indexOf('fadeIn') === -1)  {
+                btn.className = 'btn-filter btn-filter--fadeIn';
+            }
+    
+            else if (window.scrollY < scrollPosition && btn.className.indexOf('fadeIn') !== -1) {
+                btn.className = 'btn-filter btn-filter--fadeOut';
+            }
+    
+        });
     }
 
     updateCardSize() {
@@ -32,33 +78,3 @@ class App {
 }
 
 const app = new App();
-const body: any = document.querySelector('body');
-const btnCardSize: any = document.querySelector('#btn-size');
-const btnFilter: any = document.querySelector('#btn-filter');
-
-body.onscroll = () => {
-
-    const scrollPosition = 700;
-    const actionButtons = (document.querySelectorAll('.btn-filter') as any);
-    actionButtons.forEach(btn => {
-
-        if (window.scrollY >= scrollPosition && btn.className.indexOf('fadeIn') === -1)  {
-            btn.className = 'btn-filter btn-filter--fadeIn';
-        }
-
-        else if (window.scrollY < scrollPosition && btn.className.indexOf('fadeIn') !== -1) {
-            btn.className = 'btn-filter btn-filter--fadeOut';
-        }
-
-    });
-}
-
-btnCardSize.onclick = () => {
-    app.updateCardSize();    
-    return false;
-}
-
-btnFilter.onclick = () => {
-    
-    return false;
-}

@@ -54,6 +54,26 @@ export default class Controller {
             btn.setAttribute('xlink:href', './assets/images/sprite.svg#icon-compress');
             localStorage.setItem('grid-size', 'expand');
         }
+    }
+
+    openModal(id: number) {
+        const modal: any = document.querySelector('.modal');     
+        const body: any = document.querySelector('body');   
+        const wod = Wods.getById(id);
         
+        modal.querySelector('.modal__box').innerHTML = this.card.getNode(wod);
+        modal.classList.add('modal--show');
+
+        body.classList.add('noscroll');
+    }
+
+    closeModal() {
+        const modal: any = document.querySelector('.modal');
+        const body: any = document.querySelector('body');   
+
+        modal.querySelector('.modal__box').innerHTML = '';
+        modal.classList.remove('modal--show');
+
+        body.classList.remove('noscroll');
     }
 }

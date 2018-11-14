@@ -10,17 +10,17 @@ export default class Card {
     }
 
     compress() {
-        document.querySelectorAll('.card').forEach(c => {
+        document.querySelectorAll('.card:not(#modal-card)').forEach(c => {
             c.classList.remove('card--expand');
             c.classList.add('card--compress');
         });
 
-        document.querySelectorAll('.card__header ').forEach(h => {
+        document.querySelectorAll('.card__header:not(#modal-card-header)').forEach(h => {
             h.classList.remove('card__header--expand');
             h.classList.add('card__header--compress');
         });
 
-        document.querySelectorAll('.card__image').forEach((img: any) => {
+        document.querySelectorAll('.card__image:not(#modal-card-image)').forEach((img: any) => {
             let backgroundImg = `linear-gradient(to right bottom, rgba(0,0,0, 0.9), rgba(44, 100, 109, 0.7)), ${img.style.backgroundImage}`;
             img.style.backgroundImage = backgroundImg;
         })

@@ -1,5 +1,5 @@
 export default 
-`<div class="card card--expand">
+`<div class="card card--expand" data-id="{id}">
     <div class="card__header card__header--expand">
         <div class="card__image" style="background-image: url(assets/images/workouts/{image})"></div>     
         <div class="card__title-box">
