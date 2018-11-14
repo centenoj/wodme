@@ -19,8 +19,22 @@
     &__header {
         display: grid;
         grid-template-rows: 17rem 1fr;
+        position: relative;
 
-        
+        &--expand {
+
+            &::after {
+                content: "";
+                height: 1px;
+                margin: 0 auto;
+                width: 90%;
+                background-color: $color-grey-light-3;
+            }
+        }
+
+        &--compress {
+            cursor: pointer;
+        }
     }
 
     &__image {
@@ -94,7 +108,6 @@
     &__rounds {
         list-style: none;
         font-size: 1.4rem;
-        //padding: 0.5rem 0;
 
         &--first {
             margin-top: 1.5rem;

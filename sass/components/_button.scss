@@ -41,7 +41,7 @@
 
 .btn-filter {
     opacity: 0;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     width: 5rem;
@@ -55,10 +55,12 @@
 
     &--fadeIn {
         animation: fadeIn .8s forwards;
+        display: flex;
     }
 
     &--fadeOut {
         animation: fadeOut .8s forwards;
+        display: none;
     }
 
     &:hover {

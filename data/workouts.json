@@ -1830,6 +1830,39 @@
                 "time": 0,
                 "notes": "Lunges with 12kg<br/>Low row with 40kg<br/>Squats Push-press with 10kg"
             }
+        },
+        {
+            "id": 46,
+            "name": "",
+            "image": "workout_46.jpg",
+            "type": 3,
+            "duration": 30,
+            "difficulty": 3,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Pull ups",
+                        "target": "5x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "5x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Box jump",
+                        "target": "5x",
+                        "equipment": 3
+                    },
+                    {
+                        "exercise": "Crunches",
+                        "target": "5x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {}
         }
     ]
 }

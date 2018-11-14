@@ -33,8 +33,8 @@ class App {
 
 const app = new App();
 const body: any = document.querySelector('body');
-const btnCardSize: any = document.querySelectorAll('.btn-filter')[0];
-const btnFilter: any = document.querySelectorAll('.btn-filter')[1];
+const btnCardSize: any = document.querySelector('#btn-size');
+const btnFilter: any = document.querySelector('#btn-filter');
 
 body.onscroll = () => {
 

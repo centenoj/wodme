@@ -15,6 +15,11 @@ export default class Card {
             c.classList.add('card--compress');
         });
 
+        document.querySelectorAll('.card__header ').forEach(h => {
+            h.classList.remove('card__header--expand');
+            h.classList.add('card__header--compress');
+        });
+
         document.querySelectorAll('.card__image').forEach((img: any) => {
             let backgroundImg = `linear-gradient(to right bottom, rgba(0,0,0, 0.9), rgba(44, 100, 109, 0.7)), ${img.style.backgroundImage}`;
             img.style.backgroundImage = backgroundImg;
@@ -39,6 +44,11 @@ export default class Card {
         document.querySelectorAll('.card').forEach(c => {
             c.classList.remove('card--compress');
             c.classList.add('card--expand');
+        });
+
+        document.querySelectorAll('.card__header ').forEach(h => {
+            h.classList.add('card__header--expand');
+            h.classList.remove('card__header--compress');
         });
 
         document.querySelectorAll('.card__image').forEach((img: any) => {
