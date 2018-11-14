@@ -4,7 +4,7 @@ class App {
     private controller = new Controler();
 
     constructor() {
-        if (typeof localStorage['data-workouts'] === 'undefined') {
+        if (typeof sessionStorage['data-workouts'] === 'undefined') {
             this.controller.loadData(this.handleDataRequest.bind(this));
         }
         else {
@@ -22,7 +22,7 @@ class App {
     }
 
     private handleDataRequest(response: any) {
-        localStorage.setItem('data-workouts', response);
+        sessionStorage.setItem('data-workouts', response);
         this.controller.setWods();
         this.controller.createWorkoutGrid();
         if (typeof localStorage['grid-size'] !== 'undefined' && localStorage['grid-size'] === 'compress') {

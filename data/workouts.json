@@ -84,11 +84,10 @@
                     }
                 ]
             }],
-            "notes": "",
+            "notes": "Squats with 20kg<br/>Thrusters with 10kg",
             "best": {
                 "date": "13/09/2018",
-                "time": 1842,
-                "notes": "Squats with 20kg<br/>Thrusters with 10kg"
+                "time": 1842
             }
         },
         {
@@ -197,11 +196,10 @@
                     }
                 ]
             }],
-            "notes": "",
+            "notes": "Squats with 12kg<br/>Snatch with 10kg<br>Run at 16km/h",
             "best": {
                 "date": "15/09/2018",
-                "time": 1934,
-                "notes": "Squats with 12kg<br/>Snatch with 10kg<br>Run at 16km/h"
+                "time": 1934
             }
         },
         {
@@ -234,11 +232,10 @@
                     }
                 ]
             }],
-            "notes": "",
+            "notes": "Squats with 20kg<br/>Deadlifts with 20kg<br/>Snatch with 10kg",
             "best": {
                 "date": "08/10/2018",
-                "time": 0,
-                "notes": "Squats with 20kg<br/>Deadlifts with 20kg<br/>Snatch with 10kg"
+                "time": 0
             }
         },
         {
@@ -389,11 +386,10 @@
                     }
                 ]
             }],
-            "notes": "",
+            "notes": "Thrusters with 20kg",
             "best": {
                 "date": "11/09/2018",
-                "time": 2071,
-                "notes": "Thrusters with 20kg"
+                "time": 2071
             }
         },
         {
@@ -520,11 +516,10 @@
                     }
                 ]
             }],
-            "notes": "",
+            "notes": "Squats with 70kg<br/>Low row with 50kg",
             "best": {
                 "date": "12/09/2018",
-                "time": 1701,
-                "notes": "Squats with 70kg<br/>Low row with 50kg"
+                "time": 1701
             }
         },
         {
@@ -972,7 +967,7 @@
                     }
                 ]
             }],
-            "notes": "Reduce the number of reps by two each round (19, 17, ...)",
+            "notes": "Reduce 2 reps each round",
             "best": {}
         },
         {
@@ -999,7 +994,7 @@
                     }
                 ]
             }],
-            "notes": "Reduce the number of reps by two each round (19, 17, ...)",
+            "notes": "Reduce 2 reps each round",
             "best": {}
         },
         {
@@ -1081,11 +1076,10 @@
                     }
                 ]
             }],
-            "notes": "Reduce the number of reps by two each round (19, 17, ...)",
+            "notes": "Reduce 2 reps each round<br/>Ball slam with 12kg<br/>Sit ups with 10kg",
             "best": {
                 "date": "06/10/2018",
-                "time": 2110,
-                "notes": "Ball slam with 12kg<br/>Sit ups with 10kg"
+                "time": 2110
             }
         },
         {
@@ -1118,11 +1112,10 @@
                     }
                 ]
             }],
-            "notes": "",
+            "notes": "Chest press with 40kg<br/>Low row with 50kg<br/>Tricep extension with 25kg<br/>Bicep curl with 20kg",
             "best": {
                 "date": "09/10/2018",
-                "time": 1763,
-                "notes": "Chest press with 40kg<br/>Low row with 50kg<br/>Tricep extension with 25kg<br/>Bicep curl with 20kg"
+                "time": 1763
             }
         },
         {
@@ -1159,11 +1152,10 @@
                     }
                 ]
             }],
-            "notes": "First round (5-10-15-10-5) Second round (10-15-20-15-10) Third round (20-25-30-25-20). Repeat rounds in the inverse order",
+            "notes": "Sit ups with 10kg",
             "best": {
                 "date": "12/10/2018",
-                "time": 1994,
-                "notes": "Sit ups with 10kg"
+                "time": 1994
             }
         },
         {
@@ -1200,11 +1192,10 @@
                     }
                 ]
             }],
-            "notes": "First round (5-10-15-10-5) Second round (10-15-20-15-10) Third round (20-25-30-25-20). Repeat rounds in the inverse order",
+            "notes": "Thrusters and Squats with 15kg",
             "best": {
                 "date": "13/10/2018",
-                "time": 1979,
-                "notes": "Thrusters and Squats with 15kg"
+                "time": 1979
             }
         },
         {
@@ -1232,7 +1223,7 @@
                     }
                 ]
             }],
-            "notes": "Powered by freeletics",
+            "notes": "",
             "best": {}
         },
         {
@@ -1259,11 +1250,10 @@
                     }                    
                 ]
             }],
-            "notes": "Reduce the number of reps by 10 each round (40, 30, 20, 10)",
+            "notes": "Reduce 10 reps each round<br/>Squats with 12kg",
             "best": {
                 "date": "19/10/2018",
-                "time": 1879,
-                "notes": "Squats with 12kg"
+                "time": 1879
             }
         },
         {
@@ -1299,8 +1289,7 @@
             "notes": "",
             "best": {
                 "date": "22/10/2018",
-                "rounds": 11,
-                "notes": ""
+                "rounds": 11
             }
         },
         {
@@ -1338,11 +1327,10 @@
                     }
                 ]
             }],
-            "notes": "",
+            "notes": "Tricep dips with 35kg",
             "best": {
                 "date": "23/10/2018",
-                "rounds": 9,
-                "notes": "Tricep dips with 35kg"
+                "rounds": 9
             }
         },
         {
@@ -1375,11 +1363,10 @@
                     }
                 ]
             }],
-            "notes": "",
+            "notes": "Lunges with 12kg",
             "best": {
                 "date": "26/10/2018",
-                "rounds": 10,
-                "notes": "Lunges with 12kg"
+                "rounds": 10
             }
         },
         {
@@ -1415,8 +1402,7 @@
             "notes": "",
             "best": {
                 "date": "30/10/2018",
-                "rounds": 12,
-                "notes": ""
+                "rounds": 12
             }
         },
         {
@@ -1490,8 +1476,7 @@
             "notes": "",
             "best": {
                 "date": "03/11/2018",
-                "rounds": 6,
-                "notes": ""
+                "rounds": 6
             }
         },
         {
@@ -1694,8 +1679,7 @@
             "notes": "",
             "best": {
                 "date": "09/11/2018",
-                "time": 1938,
-                "notes": ""
+                "time": 1938
             }
         },
         {
@@ -1824,11 +1808,10 @@
                     }]
                 }
             ],
-            "notes": "",
+            "notes": "Lunges with 12kg<br/>Low row with 40kg<br/>Squats Push-press with 10kg",
             "best": {
                 "date": "12/11/2018",
-                "time": 0,
-                "notes": "Lunges with 12kg<br/>Low row with 40kg<br/>Squats Push-press with 10kg"
+                "time": 0
             }
         },
         {

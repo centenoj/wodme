@@ -78,7 +78,8 @@ export default class Card {
         wod.duration = typeof obj.duration !== 'undefined' ? obj.duration : '';
         wod.rounds = this.getRounds(obj);
         wod.best = this.getBest(obj);
-        wod.notes = obj.best.notes;
+        wod.notes = obj.notes;
+        wod.noteDisplay = (obj.notes === '') ? 'card__tooltip--hidden' : '';
 
         return this.interpolate(template, wod);
     }

@@ -24,7 +24,7 @@ export default class Controller {
     }
 
     setWods() {
-        const data = localStorage['data-workouts'];
+        const data = sessionStorage['data-workouts'];
         Wods.setData(data);
     }
 
