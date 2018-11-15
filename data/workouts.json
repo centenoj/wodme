@@ -1846,6 +1846,49 @@
             }],
             "notes": "",
             "best": {}
+        },
+        {
+            "id": 47,
+            "name": "",
+            "image": "workout_47.jpg",
+            "type": 3,
+            "duration": 28,
+            "difficulty": 1,
+            "workout": [{
+                    "reps": 1,
+                    "rounds": [{
+                        "exercise": "Push ups",
+                        "target": "20x",
+                        "equipment": 0
+                    }]
+                },
+                {
+                    "reps": 1,
+                    "rounds": [{
+                        "exercise": "Upper back row",
+                        "target": "20x",
+                        "equipment": 10
+                    }]
+                },
+                {
+                    "reps": 1,
+                    "rounds": [{
+                        "exercise": "Crunches",
+                        "target": "20x",
+                        "equipment": 0
+                    }]
+                },
+                {
+                    "reps": 1,
+                    "rounds": [{
+                        "exercise": "Burpees",
+                        "target": "10x",
+                        "equipment": 13
+                    }]
+                }
+            ],
+            "notes": "",
+            "best": {}
         }
     ]
 }
