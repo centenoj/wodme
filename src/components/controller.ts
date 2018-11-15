@@ -2,12 +2,13 @@ import Configurations from './configurations';
 import Request from './request';
 import Card from './card';
 import Wods from './workouts';
-
+import Modal from './modal';
 export default class Controller {
     private configs = new Configurations();
     private _endpoint: string = this.configs.get('endpoint');
     private request = new Request(this._endpoint);
     private card = new Card();
+    private modal = new Modal();
 
     constructor() {}
 
@@ -56,24 +57,14 @@ export default class Controller {
         }
     }
 
-    openModal(id: number) {
-        const modal: any = document.querySelector('.modal');     
-        const body: any = document.querySelector('body');   
-        const wod = Wods.getById(id);
-        
-        modal.querySelector('.modal__box').innerHTML = this.card.getNode(wod);
-        modal.classList.add('modal--show');
-
-        body.classList.add('noscroll');
+    openModal(id?: number) { 
+        const wod = (typeof id === 'undefined') ? Wods.getRandom() : Wods.getById(id);
+        this.modal.open(wod); 
     }
 
-    closeModal() {
-        const modal: any = document.querySelector('.modal');
-        const body: any = document.querySelector('body');   
-
-        modal.querySelector('.modal__box').innerHTML = '';
-        modal.classList.remove('modal--show');
-
-        body.classList.remove('noscroll');
+    closeModal(target) {        
+        if (target.className.indexOf('modal--show') !== -1) {
+            this.modal.close();
+        }    
     }
 }

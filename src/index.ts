@@ -19,6 +19,7 @@ class App {
         const body: any = document.querySelector('body');
         const btnCardSize: any = document.querySelector('#btn-size');
         const btnFilter: any = document.querySelector('#btn-filter');
+        const btnRandom: any = document.querySelector('#btn-random');
         const modal: any = document.querySelector('.modal');
 
         cardList.forEach(c => {
@@ -40,10 +41,14 @@ class App {
             return false;
         }
 
+        btnRandom.onclick = () => {
+            window.scrollTo(0, 950);
+            this.controller.openModal();
+            return false;
+        }
+
         modal.onclick = (e: Event) => {
-            if ((e.target as any).className.indexOf('modal--show') !== -1) {
-                this.controller.closeModal();
-            }
+            this.controller.closeModal(e.target);
         }
     }
 

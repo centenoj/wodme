@@ -7,7 +7,6 @@
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 10;
     cursor: pointer;
 
     &--show {
@@ -17,7 +16,6 @@
     &__box {
         width: 36rem;
         border: 3px solid $color-grey-light-2;
-        z-index: 20;
         cursor: default;
     }
 }
