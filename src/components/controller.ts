@@ -24,6 +24,14 @@ export default class Controller {
         this.request.get(callback);
     }
 
+    addEventListener(selector: string, eventType: string, callback: any) {
+        const element: any = document.querySelector(selector);
+        element[eventType] = (e:Event) => {
+            callback(e);
+            return false;
+        }
+    }
+
     setWods() {
         const data = sessionStorage['data-workouts'];
         Wods.setData(data);
@@ -57,12 +65,19 @@ export default class Controller {
         }
     }
 
+    handleGridClick(target) {
+        const parentNode = target.parentNode;
+        if (parentNode.className.indexOf('card__header--compress') !== -1) {
+            this.openModal(parseInt(parentNode.parentNode.getAttribute('data-id')));
+        }
+    }
+
     openModal(id?: number) { 
         const wod = (typeof id === 'undefined') ? Wods.getRandom() : Wods.getById(id);
         this.modal.open(wod); 
     }
 
-    closeModal(target) {        
+    closeModal(target) {     
         if (target.className.indexOf('modal--show') !== -1) {
             this.modal.close();
         }    

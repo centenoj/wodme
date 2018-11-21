@@ -1690,7 +1690,7 @@
             "duration": 30,
             "difficulty": 2,
             "workout": [{
-                    "reps": 10,
+                    "reps": 6,
                     "rounds": [{
                             "exercise": "Low row",
                             "target": "1x",
@@ -1704,7 +1704,7 @@
                     ]
                 },
                 {
-                    "reps": 10,
+                    "reps": 6,
                     "rounds": [{
                             "exercise": "Push ups",
                             "target": "1x",
@@ -1718,7 +1718,7 @@
                     ]
                 },
                 {
-                    "reps": 10,
+                    "reps": 6,
                     "rounds": [{
                             "exercise": "Squats",
                             "target": "1x",
@@ -1734,7 +1734,7 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                            "exercise": "Burpee with box jump",
+                            "exercise": "Burpees",
                             "target": "10x",
                             "equipment": 0
                         }
@@ -1742,7 +1742,10 @@
                 }
             ],
             "notes": "",
-            "best": {}
+            "best": {
+                "date": "20/11/2018",
+                "time": 1955
+            }
         },
         {
             "id": 45,
@@ -1889,6 +1892,80 @@
             ],
             "notes": "",
             "best": {}
+        },
+        {
+            "id": 48,
+            "name": "",
+            "image": "workout_48.jpg",
+            "type": 3,
+            "duration": 30,
+            "difficulty": 1,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "High knees",
+                        "target": "20seg",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "20seg",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "20seg",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Rest",
+                        "target": "1min",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {}
+        },
+        {
+            "id": 49,
+            "name": "",
+            "image": "workout_49.jpg",
+            "type": 1,
+            "difficulty": 2,
+            "workout": [{
+                "reps": 1,
+                "rounds": [{
+                        "exercise": "Burpees",
+                        "target": "50x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Pull ups",
+                        "target": "50x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "100x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "150x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "50x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {
+                "date": "21/11/2018",
+                "time": 1703
+            }
         }
     ]
 }
