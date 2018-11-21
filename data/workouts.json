@@ -1686,61 +1686,47 @@
             "id": 44,
             "name": "",
             "image": "workout_44.jpg",
-            "type": 0,
-            "duration": 30,
+            "type": 1,
             "difficulty": 2,
             "workout": [{
-                    "reps": 6,
-                    "rounds": [{
-                            "exercise": "Low row",
-                            "target": "1x",
-                            "equipment": 10
-                        },
-                        {
-                            "exercise": "Upper back row",
-                            "target": "1x",
-                            "equipment": 10
-                        }
-                    ]
-                },
-                {
-                    "reps": 6,
-                    "rounds": [{
-                            "exercise": "Push ups",
-                            "target": "1x",
-                            "equipment": 0
-                        },
-                        {
-                            "exercise": "Tricep push ups",
-                            "target": "1x",
-                            "equipment": 0
-                        }
-                    ]
-                },
-                {
-                    "reps": 6,
-                    "rounds": [{
-                            "exercise": "Squats",
-                            "target": "1x",
-                            "equipment": 0
-                        },
-                        {
-                            "exercise": "Lunges",
-                            "target": "2x",
-                            "equipment": 0
-                        }
-                    ]
-                },
-                {
-                    "reps": 1,
-                    "rounds": [{
-                            "exercise": "Burpees",
-                            "target": "10x",
-                            "equipment": 0
-                        }
-                    ]
-                }
-            ],
+                "reps": 10,
+                "rounds": [{
+                        "exercise": "Low row",
+                        "target": "6x",
+                        "equipment": 10
+                    },
+                    {
+                        "exercise": "Upper back row",
+                        "target": "6x",
+                        "equipment": 10
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "6x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Tricep push ups",
+                        "target": "6x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "6x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Lunges",
+                        "target": "12x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "10x",
+                        "equipment": 0
+                    }
+                ]
+            }],
             "notes": "",
             "best": {
                 "date": "20/11/2018",
