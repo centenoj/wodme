@@ -1952,6 +1952,108 @@
                 "date": "21/11/2018",
                 "time": 1703
             }
+        },
+        {
+            "id": 50,
+            "name": "",
+            "image": "workout_50.jpg",
+            "type": 0,
+            "duration": 30,
+            "difficulty": 2,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Overhead shoulder press",
+                        "target": "10x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "20x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Squats",
+                        "target": "30x",
+                        "equipment": 4
+                    }
+                ]
+            }],
+            "notes": "Should press 20kg<br/>Squats with 20kg",
+            "best": {
+                "date": "22/11/2018",
+                "rounds": 6
+            }
+        },
+        {
+            "id": 51,
+            "name": "",
+            "image": "workout_51.jpg",
+            "type": 0,
+            "duration": 30,
+            "difficulty": 3,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Pull ups",
+                        "target": "10x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "20x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Lunges",
+                        "target": "30x",
+                        "equipment": 4
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {}
+        },
+        {
+            "id": 52,
+            "name": "",
+            "image": "workout_52.jpg",
+            "type": 1,
+            "difficulty": 2,
+            "workout": [{
+                "reps": 5,
+                "rounds": [{
+                        "exercise": "Cable core press",
+                        "target": "16x",
+                        "equipment": 9
+                    },
+                    {
+                        "exercise": "Side bend",
+                        "target": "16x",
+                        "equipment": 6
+                    },
+                    {
+                        "exercise": "Leg raise",
+                        "target": "15x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Sit ups",
+                        "target": "15x",
+                        "equipment": 12
+                    },
+                    {
+                        "exercise": "Cable crunch",
+                        "target": "15x",
+                        "equipment": 9
+                    },
+                    {
+                        "exercise": "Run",
+                        "target": "500m",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "Cable core press with 12,5kg<br/>Side bend with 24kg<br/>Sit ups with 10kg<br/>Cable crunch with 30kg",
+            "best": {}
         }
     ]
 }
