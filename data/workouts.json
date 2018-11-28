@@ -474,7 +474,7 @@
                     {
                         "exercise": "Box jump",
                         "target": "20x",
-                        "equipment": 3
+                        "equipment": 0
                     },
                     {
                         "exercise": "Hanging knee raise",
@@ -538,7 +538,7 @@
                     {
                         "exercise": "Burpee with box jump",
                         "target": "5x",
-                        "equipment": 3
+                        "equipment": 0
                     },
                     {
                         "exercise": "Push ups",
@@ -1035,7 +1035,7 @@
                     {
                         "exercise": "Box jump",
                         "target": "5x",
-                        "equipment": 3
+                        "equipment": 0
                     }
                 ]
             }],
@@ -1067,7 +1067,7 @@
                     {
                         "exercise": "Box jump",
                         "target": "21x",
-                        "equipment": 3
+                        "equipment": 0
                     },
                     {
                         "exercise": "Upper back row",
@@ -1168,7 +1168,7 @@
                 "rounds": [{
                         "exercise": "Box jump",
                         "target": "5x",
-                        "equipment": 3
+                        "equipment": 0
                     },
                     {
                         "exercise": "Thrusters",
@@ -1188,7 +1188,7 @@
                     {
                         "exercise": "Box jump",
                         "target": "5x",
-                        "equipment": 3
+                        "equipment": 0
                     }
                 ]
             }],
@@ -1824,7 +1824,7 @@
                     {
                         "exercise": "Box jump",
                         "target": "5x",
-                        "equipment": 3
+                        "equipment": 0
                     },
                     {
                         "exercise": "Crunches",
@@ -2054,6 +2054,74 @@
             }],
             "notes": "Cable core press with 12,5kg<br/>Side bend with 24kg<br/>Sit ups with 10kg<br/>Cable crunch with 30kg",
             "best": {}
+        },
+        {
+            "id": 53,
+            "name": "",
+            "image": "workout_53.jpg",
+            "type": 0,
+            "duration": 30,
+            "difficulty": 2,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Low row",
+                        "target": "10x",
+                        "equipment": 10
+                    },
+                    {
+                        "exercise": "Box jump",
+                        "target": "20x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Push ups",
+                        "target": "30x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {}
+        },
+        {
+            "id": 54,
+            "name": "",
+            "image": "workout_54.jpg",
+            "type": 2,
+            "difficulty": 3,
+            "workout": [{
+                "rounds": [{
+                        "exercise": "Push ups",
+                        "target": "21x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Wall ball",
+                        "target": "21x",
+                        "equipment": 2
+                    },     
+                    {
+                        "exercise": "Frontal Squat",
+                        "target": "21x",
+                        "equipment": 4
+                    },               
+                    {
+                        "exercise": "Crunches",
+                        "target": "21x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": "Burpees",
+                        "target": "21x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "Reduce 2 reps each round<br/>Frontal squats with 20kg",
+            "best": {
+                "date": "27/11/2018",
+                "time": 2037
+            }
         }
     ]
 }
