@@ -1,6 +1,16 @@
 {
     "types": ["As many rounds", "Time to beat", "Rep decrease", "EMOTM", "Pyramid"],
     "equipments": ["None", "Pull up bar", "Medicine ball", "Box", "Bar", "Dumbbell", "Row machine", "Kettlebell", "Cable jungle", "TRX", "Squat rack", "Plate", "Bosu ball", "Bench", "Slam ball"],
+    "exercises": {
+        "shoulders": ["Thrusters", "Overhead shoulder press", "Superman"],
+        "chest": ["Push ups", "Spiderman push ups", "Clapping push ups", "Walk out pushup", "Chest press"],
+        "back": ["Pull ups", "Commando Pull ups left", "Commando Pull ups right", "Low row", "Upper back row"],
+        "arms": ["Tricep push ups", "Tricep extension", "Tricep dips", "Bicep curl"],
+        "legs": ["Squats", "Frontal squats", "Squat Jumps", "Deadlifts", "Hip thruster", "Hamstring curl", "Lunges", "Power lunges", "Walk lunges"],
+        "core": ["Sit ups", "Crunches", "Plank", "Plank switches", "Plank with shoulder taps", "Core press", "Side bend", "Leg raise", "Cable crunch", "Hanging knee raise"],
+        "all": ["Burpees", "Burpee with box jump", "Burpee with lateral bar raise", "Wall ball", "Squat push-press", "Cleans", "Snatch", "Ball slam", "Mountain climbers", 
+            "Climbers", "High knees", "Jumping jacks", "Box jump", "Run", "Row", "Jumps"]
+    },
     "workouts": [{
             "id": 1,
             "name": "Ursus",
@@ -10,22 +20,22 @@
             "difficulty": 3,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Pull ups",
+                        "exercise": ["back", 0],
                         "target": "5x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "15x",
                         "equipment": 14
                     },
                     {
-                        "exercise": "Burpee with box jump",
+                        "exercise": ["all", 1],
                         "target": "10x",
                         "equipment": 0
                     }
@@ -43,42 +53,42 @@
             "workout": [{
                 "reps": 1,
                 "rounds": [{
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "100x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "75x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Thrusters",
+                        "exercise": ["shoulders", 0],
                         "target": "50x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Wall ball",
+                        "exercise": ["all", 3],
                         "target": "25x",
                         "equipment": 2
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "100x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Thrusters",
+                        "exercise": ["shoulders", 0],
                         "target": "75x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Wall ball",
+                        "exercise": ["all", 3],
                         "target": "50x",
                         "equipment": 2
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "25x",
                         "equipment": 0
                     }
@@ -99,17 +109,17 @@
             "difficulty": 2,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Pull ups",
+                        "exercise": ["back", 0],
                         "target": "5x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "15x",
                         "equipment": 0
                     }
@@ -127,27 +137,27 @@
             "workout": [{
                 "reps": 5,
                 "rounds": [{
-                        "exercise": "Pull ups",
+                        "exercise": ["back", 0],
                         "target": "5x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpee with box jump",
+                        "exercise": ["all", 1],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "15x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Clean",
+                        "exercise": ["all", 5],
                         "target": "20x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Run",
+                        "exercise": ["all", 13],
                         "target": "250m",
                         "equipment": 0
                     }
@@ -165,32 +175,32 @@
             "workout": [{
                 "reps": 10,
                 "rounds": [{
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "10x",
                         "equipment": 14
                     },
                     {
-                        "exercise": "Snatch",
+                        "exercise": ["all", 6],
                         "target": "10x",
                         "equipment": 5
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Sit ups",
+                        "exercise": ["core", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Run",
+                        "exercise": ["all", 13],
                         "target": "100m",
                         "equipment": 0
                     }
@@ -211,22 +221,22 @@
             "workout": [{
                 "reps": 8,
                 "rounds": [{
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "15x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Deadlifts",
+                        "exercise": ["legs", 3],
                         "target": "15x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "15x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Snatch",
+                        "exercise": ["all", 6],
                         "target": "16x",
                         "equipment": 5
                     }
@@ -247,27 +257,27 @@
             "workout": [{
                 "reps": 5,
                 "rounds": [{
-                        "exercise": "Row",
+                        "exercise": ["all", 14],
                         "target": "500m",
                         "equipment": 6
                     },
                     {
-                        "exercise": "Hip thruster",
+                        "exercise": ["legs", 4],
                         "target": "10x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Pull ups",
+                        "exercise": ["back", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Abs Plank",
+                        "exercise": ["core", 2],
                         "target": "1min",
                         "equipment": 5
                     }
@@ -285,12 +295,12 @@
             "workout": [{
                     "reps": 5,
                     "rounds": [{
-                            "exercise": "Push ups",
+                            "exercise": ["chest", 0],
                             "target": "10x",
                             "equipment": 0
                         },
                         {
-                            "exercise": "Pull ups",
+                            "exercise": ["back", 0],
                             "target": "10x",
                             "equipment": 0
                         }
@@ -299,12 +309,12 @@
                 {
                     "reps": 5,
                     "rounds": [{
-                            "exercise": "Cable jungle lunge",
+                            "exercise": ["legs", 6],
                             "target": "20x",
                             "equipment": 7
                         },
                         {
-                            "exercise": "Hamstring curl",
+                            "exercise": ["legs", 5],
                             "target": "10x",
                             "equipment": 4
                         }
@@ -313,12 +323,12 @@
                 {
                     "reps": 5,
                     "rounds": [{
-                            "exercise": "Superman",
+                            "exercise": ["shoulders", 2],
                             "target": "10x",
                             "equipment": 5
                         },
                         {
-                            "exercise": "Cable core press",
+                            "exercise": ["core", 5],
                             "target": "20x",
                             "equipment": 8
                         }
@@ -337,22 +347,22 @@
             "workout": [{
                 "reps": 1,
                 "rounds": [{
-                        "exercise": "Pull ups",
+                        "exercise": ["back", 0],
                         "target": "100x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "100x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Sit ups",
+                        "exercise": ["core", 0],
                         "target": "100x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "100x",
                         "equipment": 0
                     }
@@ -370,17 +380,17 @@
             "workout": [{
                 "reps": 10,
                 "rounds": [{
-                        "exercise": "Low row",
+                        "exercise": ["back", 3],
                         "target": "21x",
                         "equipment": 9
                     },
                     {
-                        "exercise": "Thrusters",
+                        "exercise": ["shoulders", 0],
                         "target": "15x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Burpee with box jump",
+                        "exercise": ["all", 1],
                         "target": "9x",
                         "equipment": 0
                     }
@@ -401,17 +411,17 @@
             "difficulty": 1,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "7x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Pull ups",
+                        "exercise": ["back", 0],
                         "target": "7x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "7x",
                         "equipment": 0
                     }
@@ -429,22 +439,22 @@
             "workout": [{
                 "reps": 5,
                 "rounds": [{
-                        "exercise": "Walk lunges",
+                        "exercise": ["legs", 8],
                         "target": "20x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpee with lateral bar raise",
+                        "exercise": ["all", 2],
                         "target": "20x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Sit ups",
+                        "exercise": ["core", 0],
                         "target": "20x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Thrusters",
+                        "exercise": ["shoulders", 0],
                         "target": "20x",
                         "equipment": 4
                     }
@@ -462,22 +472,22 @@
             "workout": [{
                 "reps": 5,
                 "rounds": [{
-                        "exercise": "Walk out pushup",
+                        "exercise": ["chest", 3],
                         "target": "20x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Wall ball",
+                        "exercise": ["all", 3],
                         "target": "20x",
                         "equipment": 2
                     },
                     {
-                        "exercise": "Box jump",
+                        "exercise": ["all", 12],
                         "target": "20x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Hanging knee raise",
+                        "exercise": ["core", 9],
                         "target": "10x",
                         "equipment": 1
                     }
@@ -495,22 +505,22 @@
             "workout": [{
                 "reps": 6,
                 "rounds": [{
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "12x",
                         "equipment": 10
                     },
                     {
-                        "exercise": "Low row",
+                        "exercise": ["back", 3],
                         "target": "12x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Tricep push ups",
+                        "exercise": ["arms", 0],
                         "target": "12x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Plank",
+                        "exercise": ["core", 2],
                         "target": "1min",
                         "equipment": 0
                     }
@@ -531,17 +541,17 @@
             "duration": 30,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Pull ups",
+                        "exercise": ["back", 0],
                         "target": "5x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpee with box jump",
+                        "exercise": ["all", 1],
                         "target": "5x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "5x",
                         "equipment": 0
                     }
@@ -559,7 +569,7 @@
             "workout": [{
                     "reps": 1,
                     "rounds": [{
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "1min",
                         "equipment": 10
                     }]
@@ -567,12 +577,12 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                            "exercise": "Squats",
+                            "exercise": ["legs", 0],
                             "target": "1min",
                             "equipment": 10
                         },
                         {
-                            "exercise": "Push ups",
+                            "exercise": ["chest", 0],
                             "target": "1min",
                             "equipment": 0
                         }
@@ -581,17 +591,17 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                            "exercise": "Squats",
+                            "exercise": ["legs", 0],
                             "target": "1min",
                             "equipment": 10
                         },
                         {
-                            "exercise": "Push ups",
+                            "exercise": ["chest", 0],
                             "target": "1min",
                             "equipment": 0
                         },
                         {
-                            "exercise": "Upper back row",
+                            "exercise": ["back", 4],
                             "target": "1min",
                             "equipment": 9
                         }
@@ -600,22 +610,22 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                            "exercise": "Squats",
+                            "exercise": ["legs", 0],
                             "target": "1min",
                             "equipment": 10
                         },
                         {
-                            "exercise": "Push ups",
+                            "exercise": ["chest", 0],
                             "target": "1min",
                             "equipment": 0
                         },
                         {
-                            "exercise": "Upper back row",
+                            "exercise": ["back", 4],
                             "target": "1min",
                             "equipment": 9
                         },
                         {
-                            "exercise": "Tricep dips",
+                            "exercise": ["arms", 2],
                             "target": "1min",
                             "equipment": 3
                         }
@@ -624,27 +634,27 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                            "exercise": "Squats",
+                            "exercise": ["legs", 0],
                             "target": "1min",
                             "equipment": 10
                         },
                         {
-                            "exercise": "Push ups",
+                            "exercise": ["chest", 0],
                             "target": "1min",
                             "equipment": 0
                         },
                         {
-                            "exercise": "Upper back row",
+                            "exercise": ["back", 4],
                             "target": "1min",
                             "equipment": 9
                         },
                         {
-                            "exercise": "Tricep dips",
+                            "exercise": ["arms", 2],
                             "target": "1min",
                             "equipment": 3
                         },
                         {
-                            "exercise": "Wall ball",
+                            "exercise": ["all", 3],
                             "target": "1min",
                             "equipment": 2
                         }
@@ -653,32 +663,32 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                            "exercise": "Squats",
+                            "exercise": ["legs", 0],
                             "target": "1min",
                             "equipment": 10
                         },
                         {
-                            "exercise": "Push ups",
+                            "exercise": ["chest", 0],
                             "target": "1min",
                             "equipment": 0
                         },
                         {
-                            "exercise": "Upper back row",
+                            "exercise": ["back", 4],
                             "target": "1min",
                             "equipment": 9
                         },
                         {
-                            "exercise": "Tricep dips",
+                            "exercise": ["arms", 2],
                             "target": "1min",
                             "equipment": 3
                         },
                         {
-                            "exercise": "Wall ball",
+                            "exercise": ["all", 3],
                             "target": "1min",
                             "equipment": 2
                         },
                         {
-                            "exercise": "Burpees",
+                            "exercise": ["all", 0],
                             "target": "1min",
                             "equipment": 0
                         }
@@ -697,22 +707,22 @@
             "workout": [{
                 "reps": 3,
                 "rounds": [{
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "100x",
                         "equipment": 11
                     },
                     {
-                        "exercise": "Thrusters",
+                        "exercise": ["shoulders", 0],
                         "target": "75x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Low row",
+                        "exercise": ["back", 3],
                         "target": "50x",
                         "equipment": 9
                     },
                     {
-                        "exercise": "Wall ball",
+                        "exercise": ["all", 3],
                         "target": "25x",
                         "equipment": 2
                     }
@@ -731,17 +741,17 @@
             "workout": [{
                 "reps": 5,
                 "rounds": [{
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "21x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "15x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "9x",
                         "equipment": 0
                     }
@@ -749,7 +759,7 @@
             }, {
                 "reps": 1,
                 "rounds": [{
-                    "exercise": "Run",
+                    "exercise": ["all", 13],
                     "target": "500m",
                     "equipment": 0
                 }]
@@ -767,17 +777,17 @@
             "workout": [{
                 "reps": 5,
                 "rounds": [{
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "21x",
                         "equipment": 10
                     },
                     {
-                        "exercise": "Pull ups",
+                        "exercise": ["back", 0],
                         "target": "15x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "9x",
                         "equipment": 12
                     }
@@ -785,7 +795,7 @@
             }, {
                 "reps": 1,
                 "rounds": [{
-                    "exercise": "Run",
+                    "exercise": ["all", 13],
                     "target": "500m",
                     "equipment": 0
                 }]
@@ -802,27 +812,27 @@
             "difficulty": 1,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "50x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Low row",
+                        "exercise": ["back", 3],
                         "target": "40x",
                         "equipment": 9
                     },
                     {
-                        "exercise": "Wall ball",
+                        "exercise": ["all", 3],
                         "target": "30x",
                         "equipment": 2
                     },
                     {
-                        "exercise": "Sit ups",
+                        "exercise": ["core", 0],
                         "target": "20x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "10x",
                         "equipment": 0
                     }
@@ -841,17 +851,17 @@
             "workout": [{
                 "reps": 5,
                 "rounds": [{
-                        "exercise": "Deadlift",
+                        "exercise": ["legs", 3],
                         "target": "21x",
                         "equipment": 10
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "15x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "9x",
                         "equipment": 0
                     }
@@ -859,7 +869,7 @@
             }, {
                 "reps": 1,
                 "rounds": [{
-                    "exercise": "Run",
+                    "exercise": ["all", 13],
                     "target": "500m",
                     "equipment": 0
                 }]
@@ -876,22 +886,22 @@
             "difficulty": 3,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Cleans",
+                        "exercise": ["all", 5],
                         "target": "21x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Upper back row",
+                        "exercise": ["back", 4],
                         "target": "15x",
                         "equipment": 9
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "9x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Run",
+                        "exercise": ["all", 13],
                         "target": "500m",
                         "equipment": 0
                     }
@@ -909,22 +919,22 @@
             "difficulty": 3,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Cleans",
+                        "exercise": ["all", 5],
                         "target": "21x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Frontal squats",
+                        "exercise": ["legs", 1],
                         "target": "15x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Thrusters",
+                        "exercise": ["shoulders", 0],
                         "target": "9x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Row",
+                        "exercise": ["all", 14],
                         "target": "10 calories",
                         "equipment": 6
                     }
@@ -941,27 +951,27 @@
             "difficulty": 3,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Jumps",
+                        "exercise": ["all", 15],
                         "target": "21x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "21x",
                         "equipment": 14
                     },
                     {
-                        "exercise": "Ball slam",
+                        "exercise": ["all", 7],
                         "target": "21x",
                         "equipment": 14
                     },
                     {
-                        "exercise": "Sit ups",
+                        "exercise": ["core", 0],
                         "target": "21x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "21x",
                         "equipment": 0
                     }
@@ -978,17 +988,17 @@
             "difficulty": 3,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Deadlift",
+                        "exercise": ["legs", 3],
                         "target": "21x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Thrusters",
+                        "exercise": ["shoulders", 0],
                         "target": "21x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "21x",
                         "equipment": 0
                     }
@@ -1006,34 +1016,34 @@
             "difficulty": 1,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "6x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Power lunges",
+                        "exercise": ["legs", 7],
                         "target": "7x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "5x",
                         "equipment": 0
                     }
                 ]
             }, {
                 "rounds": [{
-                        "exercise": "Pull ups",
+                        "exercise": ["back", 0],
                         "target": "6x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "7x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Box jump",
+                        "exercise": ["all", 12],
                         "target": "5x",
                         "equipment": 0
                     }
@@ -1050,27 +1060,27 @@
             "difficulty": 3,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Ball slam",
+                        "exercise": ["all", 7],
                         "target": "21x",
                         "equipment": 14
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "21x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Sit ups",
+                        "exercise": ["core", 0],
                         "target": "21x",
                         "equipment": 11
                     },
                     {
-                        "exercise": "Box jump",
+                        "exercise": ["all", 12],
                         "target": "21x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Upper back row",
+                        "exercise": ["back", 4],
                         "target": "21x",
                         "equipment": 9
                     }
@@ -1091,22 +1101,22 @@
             "workout": [{
                 "reps": 7,
                 "rounds": [{
-                        "exercise": "Barbell chest press",
+                        "exercise": ["chest", 4],
                         "target": "12x",
                         "equipment": 13
                     },
                     {
-                        "exercise": "Low row",
+                        "exercise": ["back", 3],
                         "target": "12x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Tricep extension",
+                        "exercise": ["arms", 1],
                         "target": "12x",
                         "equipment": 8
                     },
                     {
-                        "exercise": "Bicep curl",
+                        "exercise": ["arms", 3],
                         "target": "12x",
                         "equipment": 8
                     }
@@ -1126,27 +1136,27 @@
             "difficulty": 3,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "5x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Sit ups",
+                        "exercise": ["core", 0],
                         "target": "15x",
                         "equipment": 11
                     },
                     {
-                        "exercise": "Low row",
+                        "exercise": ["back", 3],
                         "target": "10x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "5x",
                         "equipment": 0
                     }
@@ -1166,27 +1176,27 @@
             "difficulty": 2,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Box jump",
+                        "exercise": ["all", 12],
                         "target": "5x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Thrusters",
+                        "exercise": ["shoulders", 0],
                         "target": "10x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Frontal Squat",
+                        "exercise": ["legs", 1],
                         "target": "15x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Upper back row",
+                        "exercise": ["back", 4],
                         "target": "10x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Box jump",
+                        "exercise": ["all", 12],
                         "target": "5x",
                         "equipment": 0
                     }
@@ -1207,17 +1217,17 @@
             "difficulty": 1,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Spiderman push ups",
+                        "exercise": ["chest", 1],
                         "target": "20x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "20x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Plank switches",
+                        "exercise": ["core", 3],
                         "target": "10x",
                         "equipment": 0
                     }
@@ -1234,17 +1244,17 @@
             "difficulty": 1,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "50x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Sit ups",
+                        "exercise": ["core", 0],
                         "target": "50x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "50x",
                         "equipment": 14
                     }                    
@@ -1265,22 +1275,22 @@
             "difficulty": 1,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Crunches",
+                        "exercise": ["core", 1],
                         "target": "20x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Power lunges",
+                        "exercise": ["legs", 7],
                         "target": "20x",
                         "equipment": 0
                     }
@@ -1301,27 +1311,27 @@
             "difficulty": 3,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Commando Pull ups left",
+                        "exercise": ["back", 1],
                         "target": "5x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Tricep dips",
+                        "exercise": ["arms", 2],
                         "target": "10x",
                         "equipment": -1
                     },
                     {
-                        "exercise": "Commando Pull ups right",
+                        "exercise": ["back", 2],
                         "target": "5x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Hanging knee raise",
+                        "exercise": ["core", 9],
                         "target": "10x",
                         "equipment": 1
                     }
@@ -1342,22 +1352,22 @@
             "difficulty": 1,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Plank switches",
+                        "exercise": ["core", 3],
                         "target": "5x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Lunges",
+                        "exercise": ["legs", 6],
                         "target": "20x",
                         "equipment": 7
                     },
                     {
-                        "exercise": "Mountain climbers",
+                        "exercise": ["all", 8],
                         "target": "30x",
                         "equipment": 0
                     }
@@ -1378,22 +1388,22 @@
             "difficulty": 2,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Squat Jumps",
+                        "exercise": ["legs", 2],
                         "target": "20x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "High knees",
+                        "exercise": ["all", 10],
                         "target": "30x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "10x",
                         "equipment": 0
                     }
@@ -1414,22 +1424,22 @@
             "difficulty": 1,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Squat Jumps",
+                        "exercise": ["legs", 2],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "15x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "15x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "10x",
                         "equipment": 0
                     }
@@ -1447,27 +1457,27 @@
             "difficulty": 1,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Crunches",
+                        "exercise": ["core", 1],
                         "target": "30x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "15x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Sit ups",
+                        "exercise": ["core", 0],
                         "target": "30x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "30x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "15x",
                         "equipment": 0
                     }
@@ -1488,37 +1498,37 @@
             "workout": [{
                 "reps": 1,
                 "rounds": [{
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "100x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Lunges",
+                        "exercise": ["legs", 6],
                         "target": "125x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Climbers",
+                        "exercise": ["all", 9],
                         "target": "150x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Sit ups",
+                        "exercise": ["core", 0],
                         "target": "125x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Climbers",
+                        "exercise": ["all", 9],
                         "target": "150x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Lunges",
+                        "exercise": ["legs", 6],
                         "target": "125x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "100x",
                         "equipment": 0
                     }
@@ -1536,27 +1546,27 @@
             "workout": [{
                 "reps": 1,
                 "rounds": [{
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "50x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Pull ups",
+                        "exercise": ["back", 0],
                         "target": "50x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "100x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "150x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "50x",
                         "equipment": 0
                     }
@@ -1574,22 +1584,22 @@
             "workout": [{
                 "reps": 14,
                 "rounds": [{
-                        "exercise": "Clapping push ups",
+                        "exercise": ["chest", 2],
                         "target": "5x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "High knees",
+                        "exercise": ["all", 10],
                         "target": "20x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Mountain climbers",
+                        "exercise": ["all", 8],
                         "target": "30x",
                         "equipment": 0
                     }
@@ -1607,32 +1617,32 @@
             "workout": [{
                 "reps": 8,
                 "rounds": [{
-                        "exercise": "Clapping push ups",
+                        "exercise": ["chest", 2],
                         "target": "6x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squat jumps",
+                        "exercise": ["legs", 2],
                         "target": "6x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Spiderman push ups",
+                        "exercise": ["chest", 1],
                         "target": "12x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Lunges",
+                        "exercise": ["legs", 6],
                         "target": "12x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "18x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "18x",
                         "equipment": 0
                     }
@@ -1650,27 +1660,27 @@
             "workout": [{
                 "reps": 3,
                 "rounds": [{
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "20x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "30x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Sit ups",
+                        "exercise": ["core", 0],
                         "target": "40x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Wall ball",
+                        "exercise": ["all", 3],
                         "target": "50x",
                         "equipment": 2
                     }
@@ -1691,37 +1701,37 @@
             "workout": [{
                 "reps": 10,
                 "rounds": [{
-                        "exercise": "Low row",
+                        "exercise": ["back", 3],
                         "target": "6x",
                         "equipment": 9
                     },
                     {
-                        "exercise": "Upper back row",
+                        "exercise": ["back", 4],
                         "target": "6x",
                         "equipment": 9
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "6x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Tricep push ups",
+                        "exercise": ["arms", 0],
                         "target": "6x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "6x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Lunges",
+                        "exercise": ["legs", 6],
                         "target": "12x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "10x",
                         "equipment": 0
                     }
@@ -1743,7 +1753,7 @@
             "workout": [{
                     "reps": 1,
                     "rounds": [{
-                        "exercise": "Lunges",
+                        "exercise": ["legs", 6],
                         "target": "24x",
                         "equipment": 7
                     }]
@@ -1751,7 +1761,7 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "15x",
                         "equipment": 0
                     }]
@@ -1759,7 +1769,7 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                        "exercise": "Low row",
+                        "exercise": ["back", 3],
                         "target": "15x",
                         "equipment": 4
                     }]
@@ -1767,7 +1777,7 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "10x",
                         "equipment": 0
                     }]
@@ -1775,7 +1785,7 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                        "exercise": "Squat Push-press",
+                        "exercise": ["all", 4],
                         "target": "15x",
                         "equipment": 5
                     }]
@@ -1783,7 +1793,7 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                        "exercise": "Plank with shoulder taps",
+                        "exercise": ["core", 4],
                         "target": "20x",
                         "equipment": 0
                     }]
@@ -1791,7 +1801,7 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                        "exercise": "Jumping jacks",
+                        "exercise": ["all", 11],
                         "target": "30x",
                         "equipment": 0
                     }]
@@ -1812,22 +1822,22 @@
             "difficulty": 3,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Pull ups",
+                        "exercise": ["back", 0],
                         "target": "5x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "5x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Box jump",
+                        "exercise": ["all", 12],
                         "target": "5x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Crunches",
+                        "exercise": ["core", 1],
                         "target": "5x",
                         "equipment": 0
                     }
@@ -1846,7 +1856,7 @@
             "workout": [{
                     "reps": 1,
                     "rounds": [{
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "20x",
                         "equipment": 0
                     }]
@@ -1854,7 +1864,7 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                        "exercise": "Upper back row",
+                        "exercise": ["back", 4],
                         "target": "20x",
                         "equipment": 9
                     }]
@@ -1862,7 +1872,7 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                        "exercise": "Crunches",
+                        "exercise": ["core", 1],
                         "target": "20x",
                         "equipment": 0
                     }]
@@ -1870,7 +1880,7 @@
                 {
                     "reps": 1,
                     "rounds": [{
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "10x",
                         "equipment": 12
                     }]
@@ -1888,17 +1898,17 @@
             "difficulty": 1,
             "workout": [{
                 "rounds": [{
-                        "exercise": "High knees",
+                        "exercise": ["all", 10],
                         "target": "20seg",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "20seg",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "20seg",
                         "equipment": 0
                     },
@@ -1921,27 +1931,27 @@
             "workout": [{
                 "reps": 1,
                 "rounds": [{
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "50x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Pull ups",
+                        "exercise": ["back", 0],
                         "target": "50x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "100x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "150x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "50x",
                         "equipment": 0
                     }
@@ -1962,17 +1972,17 @@
             "difficulty": 2,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Overhead shoulder press",
+                        "exercise": ["shoulders", 1],
                         "target": "10x",
                         "equipment": 4
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "20x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Squats",
+                        "exercise": ["legs", 0],
                         "target": "30x",
                         "equipment": 4
                     }
@@ -1993,17 +2003,17 @@
             "difficulty": 3,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Pull ups",
+                        "exercise": ["back", 0],
                         "target": "10x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "20x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Lunges",
+                        "exercise": ["legs", 6],
                         "target": "30x",
                         "equipment": 4
                     }
@@ -2021,32 +2031,32 @@
             "workout": [{
                 "reps": 5,
                 "rounds": [{
-                        "exercise": "Cable core press",
+                        "exercise": ["core", 5],
                         "target": "16x",
                         "equipment": 8
                     },
                     {
-                        "exercise": "Side bend",
+                        "exercise": ["core", 6],
                         "target": "16x",
                         "equipment": 5
                     },
                     {
-                        "exercise": "Leg raise",
+                        "exercise": ["core", 7],
                         "target": "15x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Sit ups",
+                        "exercise": ["core", 0],
                         "target": "15x",
                         "equipment": 11
                     },
                     {
-                        "exercise": "Cable crunch",
+                        "exercise": ["core", 8],
                         "target": "15x",
                         "equipment": 8
                     },
                     {
-                        "exercise": "Run",
+                        "exercise": ["all", 13],
                         "target": "500m",
                         "equipment": 0
                     }
@@ -2064,17 +2074,17 @@
             "difficulty": 2,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Low row",
+                        "exercise": ["back", 3],
                         "target": "10x",
                         "equipment": 9
                     },
                     {
-                        "exercise": "Box jump",
+                        "exercise": ["all", 12],
                         "target": "20x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "30x",
                         "equipment": 0
                     }
@@ -2091,27 +2101,27 @@
             "difficulty": 3,
             "workout": [{
                 "rounds": [{
-                        "exercise": "Push ups",
+                        "exercise": ["chest", 0],
                         "target": "21x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Wall ball",
+                        "exercise": ["all", 3],
                         "target": "21x",
                         "equipment": 2
                     },     
                     {
-                        "exercise": "Frontal Squat",
+                        "exercise": ["legs", 1],
                         "target": "21x",
                         "equipment": 4
                     },               
                     {
-                        "exercise": "Crunches",
+                        "exercise": ["core", 1],
                         "target": "21x",
                         "equipment": 0
                     },
                     {
-                        "exercise": "Burpees",
+                        "exercise": ["all", 0],
                         "target": "21x",
                         "equipment": 0
                     }
