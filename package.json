@@ -14,7 +14,7 @@
     "dist-copy-html": "cp index.html dist/",
     "dist-copy-bundle": "cp bundle.js dist/",
     "dist-copy-assets": "cp -r assets dist/"
-},
+  },
   "author": "João Centeno",
   "license": "ISC",
   "devDependencies": {
@@ -29,5 +29,8 @@
     "tabWidth": 4,
     "singleQuote": true,
     "printWidth": 120
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
   }
 }
