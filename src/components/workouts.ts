@@ -8,12 +8,12 @@ class Wods {
 
     setData(source: string) {
         this.data = JSON.parse(source);
-        //console.log(_.get(this.data, ['exercises', 'back', 0]));
     }
 
     getExercise(path) {
-        path.unshift('exercises');
-        return _.get(this.data, path);
+        let fullPath = path.slice(0);
+        fullPath.unshift('exercises');
+        return _.get(this.data, fullPath);
     }
 
     getType(index: number) {

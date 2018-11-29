@@ -2173,6 +2173,33 @@
                 "date": "29/11/2018",
                 "rounds": 3
             }
+        },
+        {
+            "id": 56,
+            "name": "",
+            "image": "workout_46.jpg",
+            "type": 3,
+            "duration": 30,
+            "difficulty": 1,
+            "workout": [{
+                    "reps": 1,
+                    "rounds": [{
+                        "exercise": ["all", 13],
+                        "target": "1min",
+                        "equipment": 0
+                    }]
+                },
+                {
+                    "reps": 1,
+                    "rounds": [{
+                        "exercise": ["all", 13],
+                        "target": "1min",
+                        "equipment": 0
+                    }]
+                }
+            ],
+            "notes": "Odd min: High speed<br/>Even min: Comfortable pace",
+            "best": {}
         }
     ]
 }

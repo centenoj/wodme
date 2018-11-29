@@ -67,7 +67,7 @@ export default class Controller {
 
     handleGridClick(target) {
         const parentNode = target.parentNode;
-        if (parentNode.className.indexOf('card__header--compress') !== -1) {
+        if (typeof parentNode.className === 'string' && parentNode.className.indexOf('card__header--compress') !== -1) {
             this.openModal(parseInt(parentNode.parentNode.getAttribute('data-id')));
         }
     }
