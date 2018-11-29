@@ -1,3 +1,5 @@
+import * as _ from "lodash";
+
 class Wods {
 
     private data: any;
@@ -6,6 +8,12 @@ class Wods {
 
     setData(source: string) {
         this.data = JSON.parse(source);
+        //console.log(_.get(this.data, ['exercises', 'back', 0]));
+    }
+
+    getExercise(path) {
+        path.unshift('exercises');
+        return _.get(this.data, path);
     }
 
     getType(index: number) {

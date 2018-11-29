@@ -1911,15 +1911,10 @@
                         "exercise": ["all", 0],
                         "target": "20seg",
                         "equipment": 0
-                    },
-                    {
-                        "exercise": "Rest",
-                        "target": "1min",
-                        "equipment": 0
                     }
                 ]
             }],
-            "notes": "",
+            "notes": "Rest 1min between rounds",
             "best": {}
         },
         {
@@ -2131,6 +2126,52 @@
             "best": {
                 "date": "27/11/2018",
                 "time": 2037
+            }
+        },
+        {
+            "id": 55,
+            "name": "",
+            "image": "workout_55.jpg",
+            "type": 0,
+            "duration": 30,
+            "difficulty": 1,
+            "workout": [{
+                "rounds": [{
+                        "exercise": ["all", 11],
+                        "target": "50x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 0],
+                        "target": "20x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["core", 7],
+                        "target": "25x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 11],
+                        "target": "50x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["core", 1],
+                        "target": "50x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 0],
+                        "target": "20x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {
+                "date": "29/11/2018",
+                "rounds": 3
             }
         }
     ]

@@ -137,6 +137,6 @@ export default class Card {
         const roundClass = (className) ? `class="${className}"` : '';
         const equipment = (r.equipment !== 0) ? `(${Wods.getEquipment(r.equipment)})` : '';
 
-        return `<li ${roundClass}><b>${r.target}</b> ${r.exercise} ${equipment}</li>`;
+        return `<li ${roundClass}><b>${r.target}</b> ${Wods.getExercise(r.exercise)} ${equipment}</li>`;
     }
 }
