@@ -2197,6 +2197,34 @@
             ],
             "notes": "Odd min: High speed<br/>Even min: Comfortable pace",
             "best": {}
+        },
+        {
+            "id": 57,
+            "name": "",
+            "image": "workout_57.jpg",
+            "type": 3,
+            "duration": 30,
+            "difficulty": 1,
+            "workout": [{
+                "rounds": [{
+                        "exercise": ["legs", 7],
+                        "target": "20seg",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 6],
+                        "target": "20seg",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 0],
+                        "target": "20seg",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "Rest 1min between rounds<br/>Snatch with 12kg",
+            "best": {}
         }
     ]
 }
