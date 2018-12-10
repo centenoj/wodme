@@ -36,8 +36,8 @@ class App {
     private attachEvents() {
         this.controller.addEventListener('body', 'onscroll', this.onscroll);
         this.controller.addEventListener('#btn-size', 'onclick', () => this.controller.updateCardSize());
-        //this.controller.addEventListener('#btn-filter', 'onclick', null);
-        this.controller.addEventListener('#btn-random', 'onclick', () => this.controller.openModal());
+        //this.controller.addEventListener('#btn-filter', 'onclick', () => this.controller.openFilterWindow());
+        this.controller.addEventListener('#btn-random', 'onclick', () => this.controller.openCardDetail());
         this.controller.addEventListener('.grid', 'onclick', (e:Event) => this.controller.handleGridClick(e.target));
         this.controller.addEventListener('.modal', 'onclick', (e:Event) => this.controller.closeModal(e.target));
     }

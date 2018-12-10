@@ -28,7 +28,7 @@ export default class Controller {
         const element: any = document.querySelector(selector);
         element[eventType] = (e:Event) => {
             callback(e);
-            return false;
+            //return false;
         }
     }
 
@@ -68,13 +68,13 @@ export default class Controller {
     handleGridClick(target) {
         const parentNode = target.parentNode;
         if (typeof parentNode.className === 'string' && parentNode.className.indexOf('card__header--compress') !== -1) {
-            this.openModal(parseInt(parentNode.parentNode.getAttribute('data-id')));
+            this.openCardDetail(parseInt(parentNode.parentNode.getAttribute('data-id')));
         }
     }
 
-    openModal(id?: number) { 
+    openCardDetail(id?: number) { 
         const wod = (typeof id === 'undefined') ? Wods.getRandom() : Wods.getById(id);
-        this.modal.open(wod); 
+        this.modal.open('card-template', wod);
     }
 
     closeModal(target) {     
