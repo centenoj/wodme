@@ -97,7 +97,7 @@
             "notes": "Squats with 20kg<br/>Thrusters with 10kg",
             "best": {
                 "date": "13/09/2018",
-                "time": 1842
+                "time": 1820
             }
         },
         {
@@ -175,7 +175,7 @@
             "workout": [{
                 "reps": 10,
                 "rounds": [{
-                        "exercise": ["legs", 0],
+                        "exercise": ["all", 7],
                         "target": "10x",
                         "equipment": 14
                     },
@@ -2225,6 +2225,82 @@
             }],
             "notes": "Rest 1min between rounds<br/>Snatch with 12kg",
             "best": {}
+        },
+        {
+            "id": 58,
+            "name": "",
+            "image": "workout_58.jpg",
+            "type": 1,
+            "difficulty": 2,
+            "workout": [{
+                "reps": 5,
+                "rounds": [{
+                        "exercise": ["all", 13],
+                        "target": "400m",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["back", 0],
+                        "target": "15x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["chest", 0],
+                        "target": "25x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["legs", 0],
+                        "target": "35x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {
+                "date": "18/12/2018",
+                "time": 1758
+            }
+        },
+        {
+            "id": 59,
+            "name": "",
+            "image": "workout_59.jpg",
+            "type": 4,
+            "difficulty": 3,
+            "workout": [{
+                "rounds": [{
+                        "exercise": ["chest", 0],
+                        "target": "5x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["shoulders", 0],
+                        "target": "5x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["legs", 0],
+                        "target": "5x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["core", 0],
+                        "target": "5x",
+                        "equipment": 11
+                    },
+                    {
+                        "exercise": ["all", 0],
+                        "target": "5x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "5 > 10 > 20 > 30 > 20 > 10 > 5</br/>Thrusters and Squats with 20kg<br/>Sit ups with 10kg",
+            "best": {
+                "date": "13/10/2018",
+                "time": 1979
+            }
         }
     ]
 }
