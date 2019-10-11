@@ -13,7 +13,7 @@
     },
     "workouts": [{
             "id": 1,
-            "name": "Ursus",
+            "name": "WOD 1",
             "image": "workout_1.jpg",
             "type": 0,
             "duration": 30,
@@ -46,7 +46,7 @@
         },
         {
             "id": 2,
-            "name": "Vulpes",
+            "name": "WOD 2",
             "image": "workout_2.jpg",
             "type": 1,
             "difficulty": 2,
@@ -102,7 +102,7 @@
         },
         {
             "id": 3,
-            "name": "Lupus",
+            "name": "WOD 3",
             "image": "workout_3.jpg",
             "type": 0,
             "duration": 30,
@@ -130,7 +130,7 @@
         },
         {
             "id": 4,
-            "name": "Vespertilio",
+            "name": "WOD 4",
             "image": "workout_4.jpg",
             "type": 1,
             "difficulty": 3,
@@ -168,7 +168,7 @@
         },
         {
             "id": 5,
-            "name": "Lacertus",
+            "name": "WOD 5",
             "image": "workout_5.jpg",
             "type": 1,
             "difficulty": 1,
@@ -214,7 +214,7 @@
         },
         {
             "id": 6,
-            "name": "Acinonyx",
+            "name": "WOD 6",
             "image": "workout_6.jpg",
             "type": 1,
             "difficulty": 1,
@@ -250,7 +250,7 @@
         },
         {
             "id": 7,
-            "name": "Buteo",
+            "name": "WOD 7",
             "image": "workout_7.jpg",
             "type": 1,
             "difficulty": 2,
@@ -288,7 +288,7 @@
         },
         {
             "id": 8,
-            "name": "Puma",
+            "name": "WOD 8",
             "image": "workout_8.jpg",
             "type": 1,
             "difficulty": 2,
@@ -340,7 +340,7 @@
         },
         {
             "id": 9,
-            "name": "Crocodilus",
+            "name": "WOD 9",
             "image": "workout_9.jpg",
             "type": 1,
             "difficulty": 3,
@@ -373,7 +373,7 @@
         },
         {
             "id": 10,
-            "name": "Cervus",
+            "name": "WOD 10",
             "image": "workout_10.jpg",
             "type": 1,
             "difficulty": 3,
@@ -404,7 +404,7 @@
         },
         {
             "id": 11,
-            "name": "Delphis",
+            "name": "WOD 11",
             "image": "workout_11.jpg",
             "type": 0,
             "duration": 30,
@@ -432,7 +432,7 @@
         },
         {
             "id": 12,
-            "name": "Aquila",
+            "name": "WOD 12",
             "image": "workout_12.jpg",
             "type": 1,
             "difficulty": 2,
@@ -465,7 +465,7 @@
         },
         {
             "id": 13,
-            "name": "Mammuthus",
+            "name": "WOD 13",
             "image": "workout_13.jpg",
             "type": 1,
             "difficulty": 2,
@@ -498,7 +498,7 @@
         },
         {
             "id": 14,
-            "name": "Spheniscidae",
+            "name": "WOD 14",
             "image": "workout_14.jpg",
             "type": 1,
             "difficulty": 3,
@@ -534,7 +534,7 @@
         },
         {
             "id": 15,
-            "name": "Falco",
+            "name": "WOD 15",
             "image": "workout_15.jpg",
             "type": 0,
             "difficulty": 2,
@@ -562,7 +562,7 @@
         },
         {
             "id": 16,
-            "name": "Balaena",
+            "name": "WOD 16",
             "image": "workout_16.jpg",
             "type": 1,
             "difficulty": 2,
@@ -700,7 +700,7 @@
         },
         {
             "id": 17,
-            "name": "Rana",
+            "name": "WOD 17",
             "image": "workout_17.jpg",
             "type": 1,
             "difficulty": 3,
@@ -733,7 +733,7 @@
         },
         {
             "id": 18,
-            "name": "Camelopardalis",
+            "name": "WOD 18",
             "image": "workout_18.jpg",
             "type": 0,
             "duration": 30,
@@ -769,7 +769,7 @@
         },
         {
             "id": 19,
-            "name": "Squalus",
+            "name": "WOD 19",
             "image": "workout_19.jpg",
             "type": 0,
             "duration": 30,
@@ -805,7 +805,7 @@
         },
         {
             "id": 20,
-            "name": "Erinaceus",
+            "name": "WOD 20",
             "image": "workout_20.jpg",
             "type": 1,
             "difficulty": 1,
@@ -843,7 +843,7 @@
         },
         {
             "id": 21,
-            "name": "Belbus",
+            "name": "WOD 21",
             "image": "workout_21.jpg",
             "type": 0,
             "duration": 30,
@@ -879,7 +879,7 @@
         },
         {
             "id": 22,
-            "name": "Rhino",
+            "name": "WOD 22",
             "image": "workout_22.jpg",
             "type": 0,
             "duration": 30,
@@ -912,7 +912,7 @@
         },
         {
             "id": 23,
-            "name": "Turtur",
+            "name": "WOD 23",
             "image": "workout_23.jpg",
             "type": 0,
             "duration": 30,
@@ -945,7 +945,7 @@
         },
         {
             "id": 24,
-            "name": "Tigris",
+            "name": "WOD 24",
             "image": "workout_24.jpg",
             "type": 2,
             "difficulty": 3,
@@ -982,7 +982,7 @@
         },
         {
             "id": 25,
-            "name": "Halmaturus",
+            "name": "WOD 25",
             "image": "workout_25.jpg",
             "type": 2,
             "difficulty": 3,
@@ -1009,7 +1009,7 @@
         },
         {
             "id": 26,
-            "name": "Komodo",
+            "name": "WOD 26",
             "image": "workout_26.jpg",
             "type": 3,
             "duration": 30,
@@ -1054,7 +1054,7 @@
         },
         {
             "id": 27,
-            "name": "Equus",
+            "name": "27",
             "image": "workout_27.jpg",
             "type": 2,
             "difficulty": 3,
@@ -1094,7 +1094,7 @@
         },
         {
             "id": 28,
-            "name": "Leo",
+            "name": "28",
             "image": "workout_28.jpg",
             "type": 1,
             "difficulty": 3,
@@ -1130,7 +1130,7 @@
         },
         {
             "id": 29,
-            "name": "Psittacus",
+            "name": "WOD 29",
             "image": "workout_29.jpg",
             "type": 4,
             "difficulty": 3,
@@ -1153,7 +1153,7 @@
                     {
                         "exercise": ["back", 3],
                         "target": "10x",
-                        "equipment": 4
+                        "equipment": 9
                     },
                     {
                         "exercise": ["all", 0],
@@ -1170,7 +1170,7 @@
         },
         {
             "id": 30,
-            "name": "Manta",
+            "name": "WOD 30",
             "image": "workout_30.jpg",
             "type": 4,
             "difficulty": 2,
@@ -1193,7 +1193,7 @@
                     {
                         "exercise": ["back", 4],
                         "target": "10x",
-                        "equipment": 4
+                        "equipment": 9
                     },
                     {
                         "exercise": ["all", 12],
@@ -1210,7 +1210,7 @@
         },
         {
             "id": 31,
-            "name": "Simia",
+            "name": "WOD 31",
             "image": "workout_31.jpg",
             "type": 0,
             "duration": 30,
@@ -1238,7 +1238,7 @@
         },
         {
             "id": 32,
-            "name": "Struthio",
+            "name": "WOD 32",
             "image": "workout_32.jpg",
             "type": 2,
             "difficulty": 1,
@@ -1268,7 +1268,7 @@
         },
         {
             "id": 33,
-            "name": "Panthera",
+            "name": "WOD 33",
             "image": "workout_33.jpg",
             "type": 0,
             "duration": 30,
@@ -1304,7 +1304,7 @@
         },
         {
             "id": 34,
-            "name": "Pavo",
+            "name": "WOD 34",
             "image": "workout_34.jpg",
             "type": 0,
             "duration": 30,
@@ -1313,17 +1313,17 @@
                 "rounds": [{
                         "exercise": ["back", 1],
                         "target": "5x",
-                        "equipment": 0
+                        "equipment": 1
                     },
                     {
                         "exercise": ["arms", 2],
                         "target": "10x",
-                        "equipment": -1
+                        "equipment": 13
                     },
                     {
                         "exercise": ["back", 2],
                         "target": "5x",
-                        "equipment": 0
+                        "equipment": 1
                     },
                     {
                         "exercise": ["chest", 0],
@@ -1345,7 +1345,7 @@
         },
         {
             "id": 35,
-            "name": "Cuniculus",
+            "name": "WOD 35",
             "image": "workout_35.jpg",
             "type": 0,
             "duration": 30,
@@ -1381,7 +1381,7 @@
         },
         {
             "id": 36,
-            "name": "Serpens",
+            "name": "WOD 36",
             "image": "workout_36.jpg",
             "type": 0,
             "duration": 30,
@@ -1417,7 +1417,7 @@
         },
         {
             "id": 37,
-            "name": "Scorpio",
+            "name": "WOD 37",
             "image": "workout_37.jpg",
             "type": 0,
             "duration": 30,
@@ -1450,7 +1450,7 @@
         },
         {
             "id": 38,
-            "name": "Hippocampus",
+            "name": "WOD 38",
             "image": "workout_38.jpg",
             "type": 0,
             "duration": 30,
@@ -1491,7 +1491,7 @@
         },
         {
             "id": 39,
-            "name": "Araneus",
+            "name": "WOD 39",
             "image": "workout_39.jpg",
             "type": 1,
             "difficulty": 3,
@@ -1539,7 +1539,7 @@
         },
         {
             "id": 40,
-            "name": "Asterias",
+            "name": "WOD 40",
             "image": "workout_40.jpg",
             "type": 1,
             "difficulty": 3,
@@ -1577,7 +1577,7 @@
         },
         {
             "id": 41,
-            "name": "Cygnus",
+            "name": "WOD 41",
             "image": "workout_41.jpg",
             "type": 1,
             "difficulty": 2,
@@ -1610,7 +1610,7 @@
         },
         {
             "id": 42,
-            "name": "Vespa",
+            "name": "WOD 42",
             "image": "workout_42.jpg",
             "type": 1,
             "difficulty": 2,
@@ -1653,7 +1653,7 @@
         },
         {
             "id": 43,
-            "name": "",
+            "name": "WOD 43",
             "image": "workout_43.jpg",
             "type": 1,
             "difficulty": 1,
@@ -1691,7 +1691,7 @@
         },
         {
             "id": 44,
-            "name": "",
+            "name": "WOD 44",
             "image": "workout_44.jpg",
             "type": 1,
             "difficulty": 2,
@@ -1742,7 +1742,7 @@
         },
         {
             "id": 45,
-            "name": "",
+            "name": "WOD 45",
             "image": "workout_45.jpg",
             "type": 3,
             "duration": 28,
@@ -1812,7 +1812,7 @@
         },
         {
             "id": 46,
-            "name": "",
+            "name": "WOD 46",
             "image": "workout_46.jpg",
             "type": 3,
             "duration": 30,
@@ -1845,7 +1845,7 @@
         },
         {
             "id": 47,
-            "name": "",
+            "name": "WOD 47",
             "image": "workout_47.jpg",
             "type": 3,
             "duration": 28,
@@ -1888,7 +1888,7 @@
         },
         {
             "id": 48,
-            "name": "",
+            "name": "WOD 48",
             "image": "workout_48.jpg",
             "type": 3,
             "duration": 30,
@@ -1916,7 +1916,7 @@
         },
         {
             "id": 49,
-            "name": "",
+            "name": "WOD 49",
             "image": "workout_49.jpg",
             "type": 1,
             "difficulty": 2,
@@ -1957,7 +1957,7 @@
         },
         {
             "id": 50,
-            "name": "",
+            "name": "WOD 50",
             "image": "workout_50.jpg",
             "type": 0,
             "duration": 30,
@@ -1988,7 +1988,7 @@
         },
         {
             "id": 51,
-            "name": "",
+            "name": "WOD 51",
             "image": "workout_51.jpg",
             "type": 0,
             "duration": 30,
@@ -2016,7 +2016,7 @@
         },
         {
             "id": 52,
-            "name": "",
+            "name": "WOD 52",
             "image": "workout_52.jpg",
             "type": 1,
             "difficulty": 2,
@@ -2059,7 +2059,7 @@
         },
         {
             "id": 53,
-            "name": "",
+            "name": "WOD 53",
             "image": "workout_53.jpg",
             "type": 0,
             "duration": 30,
@@ -2087,7 +2087,7 @@
         },
         {
             "id": 54,
-            "name": "",
+            "name": "WOD 54",
             "image": "workout_54.jpg",
             "type": 2,
             "difficulty": 3,
@@ -2127,7 +2127,7 @@
         },
         {
             "id": 55,
-            "name": "",
+            "name": "WOD 55",
             "image": "workout_55.jpg",
             "type": 0,
             "duration": 30,
@@ -2173,7 +2173,7 @@
         },
         {
             "id": 56,
-            "name": "",
+            "name": "WOD 56",
             "image": "workout_46.jpg",
             "type": 3,
             "duration": 30,
@@ -2200,7 +2200,7 @@
         },
         {
             "id": 57,
-            "name": "",
+            "name": "WOD 57",
             "image": "workout_57.jpg",
             "type": 3,
             "duration": 30,
@@ -2228,7 +2228,7 @@
         },
         {
             "id": 58,
-            "name": "",
+            "name": "WOD 58",
             "image": "workout_58.jpg",
             "type": 1,
             "difficulty": 2,
@@ -2264,7 +2264,7 @@
         },
         {
             "id": 59,
-            "name": "",
+            "name": "WOD 59",
             "image": "workout_59.jpg",
             "type": 4,
             "difficulty": 3,
@@ -2300,6 +2300,70 @@
             "best": {
                 "date": "13/10/2018",
                 "time": 1979
+            }
+        },
+        {
+            "id": 60,
+            "name": "WOD 60",
+            "image": "workout_60.jpg",
+            "type": 0,
+            "duration": 30,
+            "difficulty": 1,
+            "workout": [{
+                "rounds": [{
+                        "exercise": ["shoulders", 0],
+                        "target": "10x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["back", 3],
+                        "target": "15x",
+                        "equipment": 9
+                    },
+                    {
+                        "exercise": ["all", 0],
+                        "target": "15x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["chest", 0],
+                        "target": "10x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
+            "best": {}
+        },
+        {
+            "id": 61,
+            "name": "WOD 61",
+            "image": "workout_61.jpg",
+            "type": 2,
+            "difficulty": 1,
+            "workout": [{
+                "rounds": [{
+                        "exercise": ["chest", 0],
+                        "target": "21x",
+                        "equipment": 0
+                    },  
+                    {
+                        "exercise": ["core", 1],
+                        "target": "21x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 0],
+                        "target": "21x",
+                        "equipment": 0
+                    }
+                    
+                ]
+            }],
+            "notes": "Reduce 2 reps each round",
+            "best": {
+                "date": "10/10/2019",
+                "time": 1333
             }
         }
     ]
