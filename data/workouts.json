@@ -1054,7 +1054,7 @@
         },
         {
             "id": 27,
-            "name": "27",
+            "name": "WOD 27",
             "image": "workout_27.jpg",
             "type": 2,
             "difficulty": 3,
@@ -1094,7 +1094,7 @@
         },
         {
             "id": 28,
-            "name": "28",
+            "name": "WOD 28",
             "image": "workout_28.jpg",
             "type": 1,
             "difficulty": 3,
@@ -2364,6 +2364,52 @@
             "best": {
                 "date": "10/10/2019",
                 "time": 1333
+            }
+        },
+        {
+            "id": 62,
+            "name": "WOD 62",
+            "image": "workout_62.jpg",
+            "type": 1,
+            "difficulty": 1,
+            "workout": [{
+                "reps": 4,
+                "rounds": [{
+                        "exercise": ["chest", 0],
+                        "target": "15x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["core", 0],
+                        "target": "15x",
+                        "equipment": 11
+                    },
+                    {
+                        "exercise": ["all", 0],
+                        "target": "15x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["shoulders", 0],
+                        "target": "15x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["legs", 0],
+                        "target": "15x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["all", 0],
+                        "target": "15x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "Thrusters and Squats with 20kg<br/>Sit ups with 10kg",
+            "best": {
+                "date": "17/10/2019",
+                "time": 1735
             }
         }
     ]
