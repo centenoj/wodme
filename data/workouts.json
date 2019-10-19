@@ -2,8 +2,8 @@
     "types": ["As many rounds", "Time to beat", "Rep decrease", "EMOTM", "Pyramid"],
     "equipments": ["None", "Pull up bar", "Medicine ball", "Box", "Bar", "Dumbbell", "Row machine", "Kettlebell", "Cable jungle", "TRX", "Squat rack", "Plate", "Bosu ball", "Bench", "Slam ball"],
     "exercises": {
-        "shoulders": ["Thrusters", "Overhead shoulder press", "Superman"],
-        "chest": ["Push ups", "Spiderman push ups", "Clapping push ups", "Walk out pushup", "Chest press"],
+        "shoulders": ["Thrusters", "Overhead shoulder press", "Superman", "Lateral raise"],
+        "chest": ["Push ups", "Spiderman push ups", "Clapping push ups", "Walk out pushup", "Chest press", "Chest flyes"],
         "back": ["Pull ups", "Commando Pull ups left", "Commando Pull ups right", "Low row", "Upper back row"],
         "arms": ["Tricep push ups", "Tricep extension", "Tricep dips", "Bicep curl"],
         "legs": ["Squats", "Frontal squats", "Squat Jumps", "Deadlifts", "Hip thruster", "Hamstring curl", "Lunges", "Power lunges", "Walk lunges"],
@@ -2030,7 +2030,7 @@
                     {
                         "exercise": ["core", 6],
                         "target": "16x",
-                        "equipment": 5
+                        "equipment": 7
                     },
                     {
                         "exercise": ["core", 7],
@@ -2411,6 +2411,92 @@
                 "date": "17/10/2019",
                 "time": 1735
             }
+        },
+        {
+            "id": 63,
+            "name": "WOD 63",
+            "image": "workout_63.jpg",
+            "type": 1,
+            "difficulty": 1,
+            "workout": [{
+                "reps": 4,
+                "rounds": [{
+                        "exercise": ["back", 3],
+                        "target": "15x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["core", 1],
+                        "target": "15x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 0],
+                        "target": "15x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 7],
+                        "target": "15x",
+                        "equipment": 14
+                    },
+                    {
+                        "exercise": ["legs", 6],
+                        "target": "15x",
+                        "equipment": 7
+                    },
+                    {
+                        "exercise": ["all", 0],
+                        "target": "15x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "Low row with 40kg<br/>Lunges with 10kg",
+            "best": {}
+        },
+        {
+            "id": 64,
+            "name": "WOD 64",
+            "image": "workout_64.jpg",
+            "type": 1,
+            "difficulty": 1,
+            "workout": [{
+                "reps": 4,
+                "rounds": [{
+                        "exercise": ["chest", 5],
+                        "target": "15x",
+                        "equipment": 9
+                    },
+                    {
+                        "exercise": ["core", 6],
+                        "target": "15x",
+                        "equipment": 7
+                    },
+                    {
+                        "exercise": ["all", 12],
+                        "target": "15x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["shoulders", 3],
+                        "target": "15x",
+                        "equipment": 5
+                    },
+                    {
+                        "exercise": ["legs", 1],
+                        "target": "15x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["all", 12],
+                        "target": "15x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "Side bends with 24<br/>Lateral raise with 6kg<br/>Frontal squat with 20kg",
+            "best": {}
         }
     ]
 }
