@@ -2462,7 +2462,7 @@
             "type": 1,
             "difficulty": 1,
             "workout": [{
-                "reps": 4,
+                "reps": 5,
                 "rounds": [{
                         "exercise": ["chest", 5],
                         "target": "15x",
@@ -2496,7 +2496,10 @@
                 ]
             }],
             "notes": "Side bends with 24<br/>Lateral raise with 6kg<br/>Frontal squat with 20kg",
-            "best": {}
+            "best": {
+                "date": "19/10/2019",
+                "time": 1744
+            }
         }
     ]
 }
