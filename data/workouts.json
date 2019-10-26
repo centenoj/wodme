@@ -2500,6 +2500,52 @@
                 "date": "19/10/2019",
                 "time": 1744
             }
+        },
+        {
+            "id": 65,
+            "name": "WOD 65",
+            "image": "workout_65.jpg",
+            "type": 1,
+            "difficulty": 1,
+            "workout": [{
+                "reps": 4,
+                "rounds": [{
+                        "exercise": ["chest", 0],
+                        "target": "15x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["shoulders", 3],
+                        "target": "15x",
+                        "equipment": 5
+                    },
+                    {
+                        "exercise": ["all", 0],
+                        "target": "15x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 7],
+                        "target": "15x",
+                        "equipment": 14
+                    },
+                    {
+                        "exercise": ["legs", 0],
+                        "target": "15x",
+                        "equipment": 14
+                    },
+                    {
+                        "exercise": ["all", 0],
+                        "target": "15x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "Side bends with 24<br/>Lateral raise with 6kg<br/>Frontal squat with 20kg",
+            "best": {
+                "date": "19/10/2019",
+                "time": 1744
+            }
         }
     ]
 }
