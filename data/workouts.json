@@ -2546,6 +2546,294 @@
                 "date": "19/10/2019",
                 "time": 1744
             }
+        },
+        {
+            "id": 66,
+            "name": "WOD 66",
+            "image": "workout_66.jpg",
+            "type": 1,
+            "difficulty": 2,
+            "workout": [{
+                "reps": 1,
+                "rounds": [{
+                        "exercise": ["legs", 0],
+                        "target": "50x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["all", 1],
+                        "target": "10x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 13],
+                        "target": "400m",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["chest", 0],
+                        "target": "50x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 1],
+                        "target": "10x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 13],
+                        "target": "400m",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 3],
+                        "target": "50x",
+                        "equipment": 2
+                    },
+                    {
+                        "exercise": ["all", 1],
+                        "target": "10x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 13],
+                        "target": "400m",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 7],
+                        "target": "50x",
+                        "equipment": 14
+                    },
+                    {
+                        "exercise": ["all", 1],
+                        "target": "10x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 13],
+                        "target": "400m",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "Squats with 20kg<br/>",
+            "best": {}
+        },
+        {
+            "id": 67,
+            "name": "WOD 67",
+            "image": "workout_67.jpg",
+            "type": 1,
+            "difficulty": 2,
+            "workout": [{
+                "reps": 1,
+                "rounds": [{
+                        "exercise": ["legs", 3],
+                        "target": "50x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["all", 1],
+                        "target": "10x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 13],
+                        "target": "400m",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["back", 3],
+                        "target": "50x",
+                        "equipment": 9
+                    },
+                    {
+                        "exercise": ["all", 1],
+                        "target": "10x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 13],
+                        "target": "400m",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["core", 1],
+                        "target": "50x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 1],
+                        "target": "10x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 13],
+                        "target": "400m",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 7],
+                        "target": "50x",
+                        "equipment": 14
+                    },
+                    {
+                        "exercise": ["all", 1],
+                        "target": "10x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 13],
+                        "target": "400m",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "Squats with 20kg<br/>",
+            "best": {}
+        },
+        {
+            "id": 68,
+            "name": "WOD 68",
+            "image": "workout_68.jpg",
+            "type": 1,
+            "difficulty": 3,
+            "workout": [{
+                "reps": 1,
+                "rounds": [{
+                        "exercise": ["all", 13],
+                        "target": "500m",
+                        "equipment": 0
+                    },{
+                        "exercise": ["legs", 0],
+                        "target": "21x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["back", 0],
+                        "target": "21x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["core", 0],
+                        "target": "21",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 13],
+                        "target": "500m",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["legs", 0],
+                        "target": "15x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["back", 0],
+                        "target": "15x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["core", 0],
+                        "target": "15",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 13],
+                        "target": "500m",
+                        "equipment": 0
+                    },{
+                        "exercise": ["legs", 0],
+                        "target": "21x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["back", 0],
+                        "target": "21x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["core", 0],
+                        "target": "21",
+                        "equipment": 0
+                    }                    
+                ]
+            }],
+            "notes": "Squats with 40kg<br/>",
+            "best": {}
+        },
+        {
+            "id": 69,
+            "name": "WOD 69",
+            "image": "workout_69.jpg",
+            "type": 1,
+            "difficulty": 2,
+            "workout": [{
+                "reps": 1,
+                "rounds": [{
+                        "exercise": ["all", 13],
+                        "target": "500m",
+                        "equipment": 0
+                    },{
+                        "exercise": ["legs", 0],
+                        "target": "21x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["chest", 0],
+                        "target": "21x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["core", 1],
+                        "target": "21",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 13],
+                        "target": "500m",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["legs", 0],
+                        "target": "15x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["chest", 0],
+                        "target": "15x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["core", 1],
+                        "target": "15",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 13],
+                        "target": "500m",
+                        "equipment": 0
+                    },{
+                        "exercise": ["legs", 0],
+                        "target": "21x",
+                        "equipment": 4
+                    },
+                    {
+                        "exercise": ["chest", 0],
+                        "target": "21x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["core", 1],
+                        "target": "21",
+                        "equipment": 0
+                    }                    
+                ]
+            }],
+            "notes": "Squats with 40kg<br/>",
+            "best": {}
         }
     ]
 }
