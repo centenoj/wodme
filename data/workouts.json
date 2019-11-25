@@ -2717,7 +2717,7 @@
                     },
                     {
                         "exercise": ["core", 0],
-                        "target": "21",
+                        "target": "21x",
                         "equipment": 0
                     },
                     {
@@ -2737,7 +2737,7 @@
                     },
                     {
                         "exercise": ["core", 0],
-                        "target": "15",
+                        "target": "15x",
                         "equipment": 0
                     },
                     {
@@ -2756,7 +2756,7 @@
                     },
                     {
                         "exercise": ["core", 0],
-                        "target": "21",
+                        "target": "21x",
                         "equipment": 0
                     }                    
                 ]
@@ -2788,7 +2788,7 @@
                     },
                     {
                         "exercise": ["core", 1],
-                        "target": "21",
+                        "target": "21x",
                         "equipment": 0
                     },
                     {
@@ -2808,7 +2808,7 @@
                     },
                     {
                         "exercise": ["core", 1],
-                        "target": "15",
+                        "target": "15x",
                         "equipment": 0
                     },
                     {
@@ -2827,12 +2827,45 @@
                     },
                     {
                         "exercise": ["core", 1],
-                        "target": "21",
+                        "target": "21x",
                         "equipment": 0
                     }                    
                 ]
             }],
             "notes": "Squats with 40kg<br/>",
+            "best": {}
+        },
+        {
+            "id": 70,
+            "name": "WOD 70",
+            "image": "workout_70.jpg",
+            "type": 1,
+            "difficulty": 2,
+            "workout": [{
+                "reps": 6,
+                "rounds": [{
+                        "exercise": ["chest", 0],
+                        "target": "20x",
+                        "equipment": 0
+                    },
+                    {
+                        "exercise": ["all", 7],
+                        "target": "20x",
+                        "equipment": 14
+                    },
+                    {
+                        "exercise": ["core", 9],
+                        "target": "10x",
+                        "equipment": 1
+                    },
+                    {
+                        "exercise": ["all", 0],
+                        "target": "20x",
+                        "equipment": 0
+                    }
+                ]
+            }],
+            "notes": "",
             "best": {}
         }
     ]
